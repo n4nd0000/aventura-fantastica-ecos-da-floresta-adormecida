@@ -21,15 +21,26 @@
     width="200" 
     height="250"
     />
+   <agent 
+    id="vilão" 
+    image="vilão.png"
+    x="00" 
+    y="300" 
+    width="200" 
+    height="250"
+    />
   <agent
     id="botao_iniciar"
-    text="Iniciar"
-    color="darkred"
+    text="Press To Play"
+    color="blue"
     font-size="36"
-    x="600"
-    y="500"
+    x="300"
+    y="400"
     animation="pulse"
     on_click='goToPage("pagina2")'
+    border="dotted"
+    bg_color="skyblue"
+    radius="20"
   />
   
 
