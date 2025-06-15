@@ -868,5 +868,53 @@
     height="200"
   />
 </page>
+<page id="final2-3" bg_image="Floresta.png" bg_music="osts-stage.mp3">
+   
+  <agent id="Elarin6"      
+    image="Elarin_costas.png"
+    x="370"
+    y="200"
+    width="400" 
+    height="400"/>
+
+<agent 
+    id="image7" 
+    image="Tackfet costas.png"
+    x="20" 
+    y="150" 
+    width="400" 
+    height="490"
+  />
+     <agent id="fala-elarin5" 
+      text="Então vai, eu fico pra atrasar ele" 
+    x="310"
+    font-size="22"
+    animation="typewriter"
+    color="black"
+     width="500" 
+    height="100"
+    border="solid"
+    bg_color="bisque"/>
+    
+    <agent
+    id="seta1"
+    image="seta.png"
+    x="600"
+    y="70"
+     width="50" 
+    height=""
+    animation="fade-pulse"
+    on_click="goToPage('final2-2')"
+    />
+
+     <agent 
+    id="vilão2"
+    image="vil_o.PNG"
+    x="350" 
+    y="260" 
+    width="100" 
+    height="200"
+  />
+</page>
 
 </fable>
