@@ -38,7 +38,7 @@
 
 
 </page>
-<page id="pagina2" bg_image="house.png" >
+<page id="pagina2" bg_image="house.png" bg_music="osts-retro-forest.mp3">
 
   <agent
     id="narracao"
