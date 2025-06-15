@@ -432,17 +432,18 @@
 </page>
   
   <page id="pagina11" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
+   
     <agent id="Elarin5"      
-    image="captura_de_tela_2025_06_15_144228_removebg_preview.PNG"
-    x="340"
-    y="150"
-    width="500" 
-    height="450"/>
+    image="Elarin_costas.png"
+    x="370"
+    y="180"
+    width="400" 
+    height="400"/>
 
 <agent 
     id="image6" 
-    image="personagem.png"
-    x="50" 
+    image="Tackfet costas.png"
+    x="20" 
     y="150" 
     width="400" 
     height="490"
@@ -464,9 +465,11 @@
     x="700"
     y="110"
      width="50" 
-    height="100"
+    height=""
     animation="fade-pulse"
-    on_click="goToPage('pagina8')"
+    on_click="goToPage('pagina12')"
     />
   </page>
+  <page id="pagina12">
+</page>
 </fable>
