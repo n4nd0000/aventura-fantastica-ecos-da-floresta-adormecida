@@ -365,7 +365,7 @@
     <agent id="fala-tackfe2t"
       text="Faça a vida de Elearin chegar aos 100 Pontos clicando nele!" 
     
-     animation="typewriter"
+    animation="typewriter"
     font-size="25"
     color="black"
     width="450" 
@@ -403,6 +403,14 @@
     </fab-if>
    />
 </page>
-  <page id="pagina10">
+  <page id="pagina10" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
+    <agent id="Elarin"      
+    image="captura_de_tela_2025_06_15_144228_removebg_preview.PNG"
+    x="340"
+    y="150"
+    width="500" 
+    height="450"/>
+
+    <agent id="new_agent" text="New Agent" />
 </page>
 </fable>
