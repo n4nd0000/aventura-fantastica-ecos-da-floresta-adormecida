@@ -16,7 +16,14 @@
     y="center"
     animation="fade-pulse"
   />
-
+  <agent 
+    id="imagem1" 
+    image="personagem.png"
+    x="00" 
+    y="300" 
+    width="200" 
+    height="250"
+    />
   <agent
     id="botao_iniciar"
     text="Iniciar"
@@ -40,7 +47,14 @@
     y="0"
     font-size="30"
   />
-  
+   <agent 
+    id="imagem1" 
+    image="personagem.png"
+    x="200" 
+    y="330" 
+    width="200" 
+    height="250"
+    />
   <agent
     id="proxima_pagina"
     text="-Investigar o que há de errado-"
