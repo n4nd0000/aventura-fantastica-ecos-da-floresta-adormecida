@@ -412,12 +412,22 @@
     height="450"/>
 
 <agent 
-    id="image4" 
+    id="image5" 
     image="personagem.png"
     x="50" 
     y="150" 
     width="400" 
     height="490"
   />
+     <agent id="fala-elarin3" 
+      text="Muito obrigado, meu bom amigo. Agora me sinto muito melhor" 
+    x="310"
+    font-size="22"
+    animation="typewriter"
+    color="black"
+     width="500" 
+    height="150"
+    border="solid"
+    bg_color="bisque"/>
 </page>
 </fable>
