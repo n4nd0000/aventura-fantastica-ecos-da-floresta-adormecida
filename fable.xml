@@ -73,7 +73,7 @@
 
 </page>
   <page id="pagina3" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
-
+  
   <agent
     id="elarin"
     image="Elarin.png"
@@ -88,10 +88,12 @@
     id="fala_elarin"
     text="Tackfet... eles... vieram das sombras... estão levando a essência das Runas... Não sabemos como pará-los... mas a Guardiã do Luar pode te guiar..."
     x="center"
-    y="450"
+    y="270"
     font-size="25"
     animation="typewriter"
     color="black"
+    width="600" 
+    height="450"
   />
 
   <agent
