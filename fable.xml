@@ -3,7 +3,7 @@
   <property name="pontuacao" default="0" />
   <property name="visitante" default="Aventureiro" />
 
-  <page id="start" bg_image="captura_de_tela_2025_06_15_005433.png" bg_music="osts-retro-forest.mp3">
+  <page id="start" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
 
   <config font-family="New Rocker" />
 
