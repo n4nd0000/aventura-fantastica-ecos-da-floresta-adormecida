@@ -87,9 +87,9 @@
 
   <agent
     id="fala_elarin"
-    text="Tackfet... eles... vieram das sombras... estão levando a essência das Runas... Não sabemos como pará-los... mas a Guardiã do Luar pode te guiar..."
+    text="Ao me aproximar, vejo o que parece ser um velho amigo meu, Elarin, que parece bastante ferido"
     x="center"
-    y="430"
+    y="30"
     font-size="22"
     animation="typewriter"
     color="black"
