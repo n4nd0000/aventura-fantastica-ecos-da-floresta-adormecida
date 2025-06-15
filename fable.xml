@@ -3,7 +3,7 @@
  <page id="Início" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
 
   <config font-family="Caveat" />
-
+  <property name="textoConcluido" default="false" />
   <agent 
     id="titulo" 
     image="título.png"
@@ -98,9 +98,9 @@
     border="dashed"
     bg_color="dodgerblue"
     radius="20"
-  />
-     <agent
-      
+    />
+      <fab-if when="$textoConcluido = 'true'">
+      <agent 
       id="Botão"
       x="290"
       y="450"
@@ -112,8 +112,9 @@
       font-size="16"
       width="120"
       height="40"
-      on_click="goToPage('pagina4')"
-    />
+      on_click="goToPage('pagina4')"/>
+   </fab-if>
+
 </page>
   
   <page id="pagina4" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
