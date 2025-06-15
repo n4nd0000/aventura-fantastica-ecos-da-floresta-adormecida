@@ -192,7 +192,10 @@
      width="100" 
     height="100"
     animation="fade-in-up float glow"
+    on_click="goToPage('pagina6')"
     />
-
+</page>
+<page id="pagina6" bg_image="Runa.png" bg_music="osts-vilo.mp3">
+    
 </page>
 </fable>
