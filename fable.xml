@@ -196,6 +196,28 @@
     />
 </page>
 <page id="pagina6" bg_image="forest-noite.png" bg_music="osts-vilo.mp3">
+    <agent 
+      id="runa"
+      image="runa.png"
+      x="190"
+      y="150"
+      width="400" 
+      height="500"
+      animation="fade-in-up float glow"
+      
+      />
+  <agent id="descrição runa"
+         text="Forjada nas noites mais profundas pelas próprias mãos da Guardiã do Luar — uma entidade ancestral que protegia os caminhos entre o mundo dos vivos e o Reino das Sombras — a Runa da Guardiã do Luar é um artefato sagrado imbuído com a essência da lua crescente." 
+    animation="typewriter"
+    font-size="25"
+    color="black"
+    width="790" 
+    height="190"
+    border="solid"
+    bg_color="dodgerblue"
+    x="5"
+    y="0"
     
+    />
 </page>
 </fable>
