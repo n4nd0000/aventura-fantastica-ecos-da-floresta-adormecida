@@ -242,6 +242,14 @@
      width="400" 
     height="450"
     />
+     <agent 
+    id="imagem1" 
+    image="personagem.png"
+    x="50" 
+    y="150" 
+    width="400" 
+    height="490"
+    />
 
 
     
