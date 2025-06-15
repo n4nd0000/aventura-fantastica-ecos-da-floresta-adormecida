@@ -46,7 +46,7 @@
     x="0"
     y="0"
     font-size="25"
-    animation=""
+    animation="typewriter"
   />
    <agent 
     id="imagem2" 
