@@ -491,7 +491,7 @@
     bg_color="bisque"/>
     
     <agent
-    id="set2"
+    id="seta2"
     image="seta.png"
     x="700"
     y="110"
@@ -502,7 +502,7 @@
     />
   </page>
 
-  <page id="pagina12" bg_image="Floresta.png" bg_music="osts-stage.mp3">
+<page id="pagina12" bg_image="Floresta.png" bg_music="osts-stage.mp3">
    
   <agent id="Elarin6"      
     image="Elarin_costas.png"
@@ -606,12 +606,63 @@
     bg_color="dodgerblue"
     x="500"
     y="0"
-    on_click="gotopage('final2')"
+    on_click="goToPage('final 2')"
     
       />
   
   </page>
-  <page id="final 1">
+<page id="final 1" bg_image="Floresta.png" bg_music="osts-stage.mp3">
+   
+  <agent id="Elarin6"      
+    image="Elarin_costas.png"
+    x="370"
+    y="200"
+    width="400" 
+    height="400"/>
+
+<agent 
+    id="image7" 
+    image="Tackfet costas.png"
+    x="20" 
+    y="150" 
+    width="400" 
+    height="490"
+  />
+    <agent id="fala-tackfe7"
+      text="Ficaremos e lutaremos, nós somos única coisa entre ele e a runa. se perdermos, acabou..."
+    
+     animation="typewriter"
+    font-size="25"
+    color="black"
+    width="490" 
+    height="140"
+    border="solid"
+    bg_color="dodgerblue"
+    x="5"
+    y="0"
+      />
+    
+    <agent
+    id="seta4"
+    image="seta.png"
+    x="440"
+    y="103"
+     width="50" 
+    height=""
+    animation="fade-pulse"
+    on_click="goToPage('pagina13')"
+    />
+
+     <agent 
+    id="vilão4"
+    image="vil_o.PNG"
+    x="350" 
+    y="260" 
+    width="100" 
+    height="200"
+  />
+</page>
+  <page id="final 2">
 </page>
 
 </fable>
