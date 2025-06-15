@@ -86,7 +86,7 @@
   />
 
   <agent
-    id="fala_elarin"
+    id="fala_tackfet"
     text="Ao me aproximar, vejo o que parece ser um velho amigo meu, Elarin, que parece bastante ferido. Vejamos o que ele tem a dizer."
     x="center"
     y="30"
@@ -99,7 +99,49 @@
     bg_color="dodgerblue"
     radius="20"
   />
-
+     <agent
+      id="Botão"
+      x="290"
+      y="450"
+      text="Falar Com Elarin"
+      bg_color="#10b981"
+      animation="hover-bg-color-[green]"
+      color="black"
+      radius="12"
+      font-size="16"
+      width="120"
+      height="40"
+      on_click="goToPage('pagina4')"
+    />
+</page>
+  
+  <page id="pagina4" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
+  
+  <agent
+    id="elarin2"
+    image="Elarin.png"
+    x="200"
+    y="150"
+    animation="fade-in"
+     width="400" 
+    height="450"
+    />
+    
+    <agent
+    id="fala_elarin"
+    text="Ao me aproximar, vejo o que parece ser um velho amigo meu, Elarin, que parece bastante ferido. Vejamos o que ele tem a dizer."
+    x="center"
+    y="30"
+    font-size="22"
+    animation="typewriter"
+    color="black"
+    width="550" 
+    height="150"
+    border="dashed"
+    bg_color="bisque"
+    radius="20"
+    />
+    
   <agent
     id="narracao2"
     text="Ele tossiu sangue e desmaiou. O que você deseja fazer?"
