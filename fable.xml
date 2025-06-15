@@ -487,16 +487,19 @@
     width="400" 
     height="490"
   />
-     <agent id="fala-elarin5" 
-      text="Essa não, ele está aqui! Deve ter me seguido! E agora, Tackfet, o que faremos?" 
-    x="310"
-    font-size="22"
-    animation="typewriter"
+    <agent id="fala-tackfet"
+      text="Espere, deixa eu pensar... Na melhor das hipóteses, só temos duas opções." 
+    
+     animation="typewriter"
+    font-size="25"
     color="black"
-     width="500" 
-    height="150"
+    width="490" 
+    height="190"
     border="solid"
-    bg_color="bisque"/>
+    bg_color="dodgerblue"
+    x="5"
+    y="0"
+      />
     
     <agent
     id="seta1"
