@@ -261,7 +261,29 @@
     border="solid"
     bg_color="bisque"/>
 
-
-    
-</page>
+     <agent
+    id="set1"
+    image="seta.png"
+    x="700"
+    y="110"
+     width="50" 
+    height="100"
+    animation="fade-pulse"
+    on_click="goToPage('pagina8')"
+    />
+    </page>
+  <page id="pagina8" bg_image="Floresta.png" bg_music="osts-vilo.mp3"> 
+     <agent id="fala-tackfet"
+      text="Certo, mas antes de ir, me deixe curar seus ferimentos" 
+    animation="typewriter"
+    font-size="25"
+    color="black"
+    width="790" 
+    height="190"
+    border="solid"
+    bg_color="dodgerblue"
+    x="5"
+    y="0"
+    />
+  </page>
 </fable>
