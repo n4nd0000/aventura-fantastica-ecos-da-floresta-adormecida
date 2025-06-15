@@ -1,9 +1,9 @@
-<fable>
-  <config font-family="Creepster" />
-  <page id="start" bg_music="osts-fear.mp3">
+<page id="start" bg_music="osts-fear.mp3">
+ <fable>
+  <config font-family="Creepster"/>
     <agent
-      id="background"
-      image="forest-bg.png" <!-- Substituído por um asset válido -->
+      id="background
+      image="forest-bg.png"
       x="0"
       y="0"
       width="100%"
