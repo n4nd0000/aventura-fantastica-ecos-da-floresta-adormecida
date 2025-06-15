@@ -1,29 +1,35 @@
-<page id="start" bg_music="osts-fear.mp3">
- <fable>
-  <config font-family="Creepster"/>
-    <agent
-      id="background
-      image="forest-bg.png"
-      x="0"
-      y="0"
-      width="100%"
-      height="100%"
-    />
-    <agent
-      id="teste"
-      text="Ecos Da Floresta Adormecida"
-      color="black"
-      x="320"
-      y="240"
-      font-size="70"
-    />
-    <agent
-      id="next_page_text"
-      text="Proxima Pagina"
-      animation="pulse"
-      y="480"
-      x="640"
-      on_click="goToPage('middle')"
-    />
-  </page>
-</fable>
+<page id="start" bg_image="forest-bg.png" bg_music="osts-retro-forest.mp3">
+
+  <config font-family="Roboto" />
+
+  <agent
+    id="titulo_principal"
+    text="Ecos da Floresta Adormecida"
+    color="black"
+    font-size="72"
+    x="center"
+    y="center"
+    animation="fade-pulse"
+  />
+
+  <agent
+    id="botao_iniciar"
+    text="Iniciar"
+    color="darkred"
+    font-size="36"
+    x="600"
+    y="500"
+    animation="pulse"
+    on_click="goToPage('pagina_2')"
+  />
+
+  <agent
+    id="texto_versao"
+    text="alpha v0.1"
+    color="#AAAAAA"
+    font-size="18"
+    x="20"
+    y="690"
+  />
+
+</page>
