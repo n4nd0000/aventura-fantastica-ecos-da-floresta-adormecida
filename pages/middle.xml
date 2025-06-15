@@ -1,0 +1,20 @@
+<page id="pagina_1" bg_image="forest-bg.png" bg_music="osts-retro-forest.mp3">
+
+  <agent
+    id="narracao1"
+    text="Acordei com o cheiro úmido da mata e a brisa salgada do mar vindo do leste. O santuário de Melvendil estava silencioso — silencioso demais. As corujas da floresta haviam parado de cantar, e as flores-de-luz que eu mesmo havia cultivado pareciam murchas."
+    x="center"
+    y="480"
+  />
+  
+  <agent
+    id="continuar1"
+    text="[ Investigar o que há de errado ]"
+    color="white"
+    font-size="24"
+    x="center"
+    y="680"
+    animation="pulse"
+    on_click="goToPage('prologo_cena2')"
+  />
+</page>
