@@ -1075,12 +1075,20 @@
      color=""
      font-size="24"
       x="350"
-      y="10"
+      y="1"
       width="460" 
       height="260"
       animation="typewriter"
       radius="20"
     />
+     <agent 
+    id="vilão2"
+    image="vil_o.PNG"
+    x="590" 
+    y="300" 
+    width="200" 
+    height="200"
+  />
     
     <agent
     id="seta1"
