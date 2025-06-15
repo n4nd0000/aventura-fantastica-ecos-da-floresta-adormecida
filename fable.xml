@@ -362,19 +362,21 @@
       radius="30"
       animation=""
       />
-    <agent id="fala-tackfet"
+    <agent id="fala-tackfe2t"
       text="Faça a vida de Elearin chegar aos 100 Pontos!" 
     
      animation="typewriter"
     font-size="25"
     color="black"
-    width="490" 
-    height="190"
+    width="450" 
+    height="140"
     border="solid"
     bg_color="dodgerblue"
     x="5"
     y="0"
       />
+    <fab-if when=>
+</fab-if>
   />
     
     
