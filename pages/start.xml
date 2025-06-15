@@ -1,6 +1,6 @@
-<page id="start" bg_image="forest-bg.png" bg_music="osts-retro-forest.mp3">
+<page id="start" bg_image="captura_de_tela_2025_06_15_005433.png" bg_music="osts-retro-forest.mp3">
 
-  <config font-family="Roboto" />
+  <config font-family="Amatic SC" />
 
   <agent
     id="titulo_principal"
@@ -20,16 +20,9 @@
     x="600"
     y="500"
     animation="pulse"
-    on_click="goToPage('pagina_1')"
+    on_click='goToPage("pagina2")'
   />
+  
 
-  <agent
-    id="texto_versao"
-    text="alpha v0.1"
-    color="#AAAAAA"
-    font-size="18"
-    x="20"
-    y="690"
-  />
 
 </page>
