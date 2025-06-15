@@ -72,15 +72,16 @@
     />
 
 </page>
-  <page id="pagina3" bg_image="Floresta.png" bg_music="osts-retro-forest.mp3">
-  <config font-family="Georgia" />
+  <page id="pagina3" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
 
-  <character
-    id="elarin_sentinela"
-    image="chars/elarin_ferido.png"
-    x="300"
-    y="center"
+  <agent
+    id="elarin"
+    image="Elarin.png"
+    x="200"
+    y="150"
     animation="fadeIn"
+     width="400" 
+    height="450"
   />
 
   <agent
