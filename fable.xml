@@ -100,8 +100,8 @@
     bg_color="dodgerblue"
     radius="20"
     />
-      <fab-if when="$textoConcluido = 'true'">
-      <agent 
+      
+   <agent 
       id="Botão"
       x="290"
       y="450"
@@ -114,7 +114,7 @@
       width="120"
       height="40"
       on_click="goToPage('pagina4')"/>
-   </fab-if>
+
 
 </page>
   
@@ -125,7 +125,6 @@
     image="Elarin.png"
     x="200"
     y="150"
-    animation="fade-in"
      width="400" 
     height="450"
     />
@@ -144,14 +143,7 @@
     bg_color="bisque"
     radius="20"
     />
-    
-  <agent
-    id="narracao2"
-    text="Ele tossiu sangue e desmaiou. O que você deseja fazer?"
-    color="#FFDDDD"
-    font-size="22"
-    x="center"
-    y="580"
+  
   />
   
   <choices x="center" y="650">
