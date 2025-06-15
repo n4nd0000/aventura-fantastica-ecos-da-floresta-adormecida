@@ -2,7 +2,7 @@
 
  <page id="Início" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
 
-  <config font-family="Amatic SC" />
+  <config font-family="Caveat" />
 
   <agent 
     id="titulo" 
