@@ -7,15 +7,15 @@
 
   <config font-family="New Rocker" />
 
-  <agent
-    id="titulo_principal"
-    text="Ecos da Floresta Adormecida"
-    color="black"
-    font-size="72"
-    x="center"
-    y="center"
-    animation="fade-pulse"
-  />
+  <agent 
+    id="titulo" 
+    image="título.png"
+    x="100" 
+    y="0" 
+    width="600" 
+    height="350"
+    animation=
+    />
   <agent 
     id="imagem1" 
     image="personagem.png"
