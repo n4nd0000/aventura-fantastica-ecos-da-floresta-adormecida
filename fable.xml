@@ -592,7 +592,7 @@
     bg_color="dodgerblue"
     x="5"
     y="0"
-    
+    on_click="gotopage"
       />
 
      <agent id="opção2"
@@ -606,6 +606,7 @@
     bg_color="dodgerblue"
     x="500"
     y="0"
+    on_click=""
     
       />
   
