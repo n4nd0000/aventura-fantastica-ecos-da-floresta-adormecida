@@ -40,7 +40,7 @@
   <agent
     
     id="narracao"
-    text="Acordei com o cheiro úmido da mata e a brisa salgada do mar vindo do leste. O santuário de Melvendil estava silencioso... silencioso demais. As corujas da floresta haviam parado de cantar, e as flores-de-luz que eu mesmo havia cultivado pareciam murchas."
+    text="Acordei com o cheiro úmido da mata vindo do leste. O santuário de Melvendil estava silencioso... silencioso demais. As corujas da floresta haviam parado de cantar, e as flores-de-luz que eu mesmo havia cultivado pareciam murchas."
     x="3"
     y="0"
     font-size="25"
@@ -91,7 +91,7 @@
 
   <agent
     id="fala_tackfet"
-    text="Ao me aproximar, vejo o que parece ser um velho amigo meu, Elarin, que parece bastante ferido. Vejamos o que ele tem a dizer."
+    text="Ao adentrar a floresta, vejo o que parece ser um velho amigo meu, Elarin, que parece bastante ferido. Vejamos o que ele tem a dizer."
     x="center"
     y="0"
     font-size="22"
@@ -207,7 +207,7 @@
       
       />
   <agent id="descrição runa"
-         text="Forjada nas noites mais profundas pelas próprias mãos da Guardiã do Luar — uma entidade ancestral que protegia os caminhos entre o mundo dos vivos e o Reino das Sombras — a Runa da Guardiã do Luar é um artefato sagrado imbuído com a essência da lua crescente." 
+         text="Forjada nas noites mais profundas pelas próprias mãos da Guardiã do Luar, a Runa da Guardiã do Luar é um artefato sagrado imbuído com a essência da lua crescente que concede algumas habilidades para aquele que a tiver." 
     animation="typewriter"
     font-size="25"
     color="black"
@@ -217,7 +217,33 @@
     bg_color="dodgerblue"
     x="5"
     y="0"
-    
     />
+
+  <agent 
+    id="botao_continuar"
+    text="Continuar"
+    color="black"
+    font-size="36"
+    x="600"
+    y="500"
+    animation="pulse"
+    on_click='goToPage("pagina7")'
+    border="solid"
+    bg_color="aqua"
+    />
+    />
+</page>
+  <page id="pagina7" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
+        <agent
+    id="elarin3"
+    image="Elarin.png"
+    x="450"
+    y="150"
+     width="400" 
+    height="450"
+    />
+
+
+    
 </page>
 </fable>
