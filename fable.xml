@@ -1119,7 +1119,7 @@
       animation="float"
       />
       <agent id="fala"
-      text="Quais eram mesmo as palavras do ritual?? Ah sim, lembrei! HAKUNA MATATA!" 
+      text="Beleza, beleza, cê é o fodão e quer a runa e tals, deixa eu só te falar um negócio aqui rapidão... Avada..." 
      border="dashed"   
      bg_color="skyblue"
      color="black"
@@ -1131,6 +1131,14 @@
       animation="typewriter"
       radius="20"
     />
+     <agent 
+    id="vilão2"
+    image="vil_o.PNG"
+    x="590" 
+    y="300" 
+    width="200" 
+    height="200"
+  />
     
     <agent
     id="seta1"
@@ -1140,7 +1148,46 @@
      width="50" 
     height=""
     animation="fade-pulse"
-    on_click="goToPage('final2-8')"
+    on_click="goToPage('final2-9')"
       />
+  </page>
+  <page id="final2-9" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
+    <agent id="tack" 
+      image="personagem.png"
+      x="20"
+      y="230"
+      width="200" 
+      height="360"
+      />
+
+     <agent id="ritual" 
+      image="runa.png"
+      x="260"
+      y="230"
+      width="60" 
+      height="360"
+      animation="float"
+      />
+      <agent id="fala"
+      text="Avada??" 
+     border="dashed"   
+     bg_color="black"
+     color=""
+     font-size="24"
+      x="350"
+      y="1"
+      width="460" 
+      height="260"
+      animation="typewriter"
+      radius="20"
+    />
+     <agent 
+    id="vilão2"
+    image="vil_o.PNG"
+    x="590" 
+    y="300" 
+    width="200" 
+    height="200"
+  />
   </page>
 </fable>
