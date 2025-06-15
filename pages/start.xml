@@ -20,7 +20,7 @@
     x="600"
     y="500"
     animation="pulse"
-    on_click="goToPage('pagina_2')"
+    on_click="goToPage('pagina_1')"
   />
 
   <agent
