@@ -41,10 +41,14 @@
     
     id="narracao"
     text="Acordei com o cheiro úmido da mata e a brisa salgada do mar vindo do leste. O santuário de Melvendil estava silencioso... silencioso demais. As corujas da floresta haviam parado de cantar, e as flores-de-luz que eu mesmo havia cultivado pareciam murchas."
-    x="0"
+    x="3"
     y="0"
     font-size="25"
     animation="typewriter"
+    width="790" 
+    height="250"
+    border="solid"
+    bg_color="dodgerblue"
    
   />
    <agent 
@@ -89,15 +93,15 @@
     id="fala_tackfet"
     text="Ao me aproximar, vejo o que parece ser um velho amigo meu, Elarin, que parece bastante ferido. Vejamos o que ele tem a dizer."
     x="center"
-    y="30"
+    y="0"
     font-size="22"
     animation="typewriter"
     color="black"
-    width="550" 
+    width="790" 
     height="150"
-    border="dashed"
+    border="solid"
     bg_color="dodgerblue"
-    radius="20"
+    radius=""
     />
       
    <agent 
@@ -132,15 +136,15 @@
     id="fala_elarin"
     text="Tackfet... eles... vieram das sombras... estão levando a essência das Runas... Não sabemos como pará-los... mas a Guardiã do Luar pode te guiar..."
     x="center"
-    y="30"
+    y="0"
     font-size="22"
     animation="typewriter"
     color="black"
-    width="550" 
-    height="150"
-    border="dashed"
+     width="790" 
+    height="180"
+    border="solid"
     bg_color="bisque"
-    radius="20"
+    
     />
     <agent
     id="seta"
@@ -170,15 +174,14 @@
     id="fala_elarin3"
     text="Pegue isto."
     x="center"
-    y="30"
+    y=""
     font-size="22"
     animation="typewriter"
     color="black"
-    width="550" 
-    height="150"
-    border="dashed"
+    width="790" 
+    height="100"
+    border="solid"
     bg_color="bisque"
-    radius="20"
     />
 
     <agent
