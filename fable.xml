@@ -1,5 +1,5 @@
 <fable>
-
+<property name="vida_elarin = 0" default="0" />
  <page id="Início" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
 
   <config font-family="Caveat" />
@@ -339,11 +339,21 @@
     width="400" 
     height="490"
     />
-    <agent
-    id="display-vida"
+   <fab-if when="vida_elarin < 100">
+     <agent
+     id="botao-vida-mais"
+    x="300"
+    y="230"
+    text="+10 Vida"
+    color="#ffffff"
+    font-size="14"
+    on_click="set(vida_elarin, vida_elarin + 10)"
+  />
+    </fab-if>
+    <agent id="display-vida"
     x="500"
     y="120"
-    text="❤️ Vida do Herói:10 $vida_heroi"
+    text="❤️ Vida do Herói:10 "
     color="#ff6b6b"
     font-size="25"
     border="dashed"
@@ -352,15 +362,5 @@
     width="" 
     height="40"
       />
-     <agent
-     id="botao-vida-mais"
-    x="300"
-    y="230"
-    text="+10 Vida"
-    color="#ffffff"
-    font-size="14"
-    on_click="set(vida_heroi, $vida_heroi + 10)"
-  />
-    
 </page>
 </fable>
