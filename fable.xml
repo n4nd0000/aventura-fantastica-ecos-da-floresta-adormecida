@@ -501,6 +501,7 @@
     on_click="goToPage('pagina12')"
     />
   </page>
+
   <page id="pagina12" bg_image="Floresta.png" bg_music="osts-stage.mp3">
    
   <agent id="Elarin6"      
@@ -545,6 +546,45 @@
 
      <agent 
     id="vilão2"
+    image="vil_o.PNG"
+    x="350" 
+    y="260" 
+    width="100" 
+    height="200"
+  />
+  </page>
+
+  <page id="pagina12" bg_image="Floresta.png" bg_music="osts-stage.mp3">
+   
+  <agent id="Elarin6"      
+    image="Elarin_costas.png"
+    x="370"
+    y="200"
+    width="400" 
+    height="400"/>
+
+<agent 
+    id="image7" 
+    image="Tackfet costas.png"
+    x="20" 
+    y="150" 
+    width="400" 
+    height="490"
+  />
+   
+     <agent
+    id="seta2"
+    image="seta.png"
+    x="700"
+    y="110"
+     width="50" 
+    height=""
+    animation="fade-pulse"
+    on_click="goToPage('pagina12')"
+    />
+
+     <agent 
+    id="vilão3"
     image="vil_o.PNG"
     x="350" 
     y="260" 
