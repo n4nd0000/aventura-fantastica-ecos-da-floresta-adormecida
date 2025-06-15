@@ -1,5 +1,5 @@
 <fable>
-<property name="vida_elarin" default="0" />
+ <property name="contador" default="10" />
  <page id="Início" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
 
   <config font-family="Caveat" />
@@ -339,28 +339,45 @@
     width="400" 
     height="490"
     />
-   <fab-if when="vida_elarin < 100">
-     <agent
-     id="botao-vida-mais"
-    x="300"
-    y="230"
-    text="+10 Vida"
-    color="#ffffff"
-    font-size="14"
-    on_click="set(vida_elarin, vida_elarin + 10)"
-  />
-    </fab-if>
-    <agent id="display-vida"
-    x="500"
-    y="120"
-    text="❤️ Vida do Herói:10 "
-    color="#ff6b6b"
+    
+    <agent id="botao_elarin" 
+       x="450"
+       y="150"
+       width="400" 
+       height="450"
+      image="Elarin.png"
+      on_click="set(contador, $contador + 2.5)"
+      animation="click-shake"
+      />
+    
+    <agent id="contadorDisplay" 
+      x="480" 
+      y="110" 
+      text="Vida do Elarin = $contador"
+      border="dasher"
+      bg_color="blue"
+      width="300" 
+      height="50"
+      font-size="25"
+      radius="30"
+      animation=""
+      />
+    <agent id="fala-tackfet"
+      text="Faça a vida de Elearin chegar aos 100 Pontos!" 
+    
+     animation="typewriter"
     font-size="25"
-    border="dashed"
-    border_color="white"
-    bg_color="floralwhite"
-    width="" 
-    height="40"
+    color="black"
+    width="490" 
+    height="190"
+    border="solid"
+    bg_color="dodgerblue"
+    x="5"
+    y="0"
+      />
+  />
+    
+    
       />
 </page>
 </fable>
