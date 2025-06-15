@@ -650,7 +650,7 @@
      width="50" 
     height=""
     animation="fade-pulse"
-    on_click="goToPage('pagina13')"
+    on_click="goToPage('final 1-2')"
     />
 
      <agent 
@@ -663,7 +663,7 @@
   />
 </page>
   <page id="final 1-2" bg_image="Floresta.png" bg_music="osts-stage.mp3">
-
+  
   <agent 
     id="vilão5" 
     image="vil_o.PNG"
@@ -714,7 +714,8 @@
     <agent id="texto" text="É... No final, os dois farmaram aura, mas foram brutalmente molestados. F no chat, família, muito triste :'("  
       x="center"
       y="center"
-      animation="typewriter" />
+      animation="typewriter"
+      />
     
     
 </page>
