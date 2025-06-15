@@ -143,27 +143,20 @@
     bg_color="bisque"
     radius="20"
     />
-  
+    <agent
+    id="seta"
+    image="seta.png"
+    x="600"
+    y="110"
+     width="50" 
+    height="100"
+    animation="fade-pulse"
+    on_click="goToPage('pagina5')"
+    />
   />
   
-  <choices x="center" y="650">
-    <choice 
-      text="1. Seguir direto até o Círculo de Runas Vivas" 
-      description="O perigo pode ser grande, mas cada segundo conta. Talvez eu consiga impedir o ritual sombrio a tempo."
-      on_click="goToPage('rota_runas')" 
-    />
-    <choice 
-      text="2. Procurar a Guardiã do Luar na Clareira da Névoa" 
-      description="Ela é uma antiga aliada dos druidas e pode ter conhecimento para enfrentar essa escuridão."
-      on_click="goToPage('rota_guardia')" 
-    />
-    <choice 
-      text="3. Tentar curar Elarin antes de prosseguir"
-      description="Eu não posso simplesmente abandonar um irmão de aliança. Se ele sobreviver, poderá me ajudar." 
-      on_click="goToPage('rota_cura')" 
-    />
-  </choices>
-
 </page>
+
+  
 
 </fable>
