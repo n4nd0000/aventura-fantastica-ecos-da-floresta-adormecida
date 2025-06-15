@@ -904,7 +904,7 @@
      width="50" 
     height=""
     animation="fade-pulse"
-    on_click="goToPage('final2-2')"
+    on_click="goToPage('final2-4')"
     />
 
      <agent 
@@ -916,6 +916,106 @@
     height="200"
   />
 </page>
+<page id="final2-4" bg_image="Floresta.png" bg_music="osts-stage.mp3">
+   
+  <agent id="Elarin8"      
+    image="Elarin_costas.png"
+    x="370"
+    y="200"
+    width="400" 
+    height="400"/>
 
-  
+<agent 
+    id="image9" 
+    image="Tackfet costas.png"
+    x="20" 
+    y="150" 
+    width="400" 
+    height="490"
+  />
+    <agent id="fala-tackfet2"
+      text="Ta bo, flw aí" 
+    
+     animation="typewriter"
+    font-size="25"
+    color="black"
+    width="490" 
+    height="100"
+    border="solid"
+    bg_color="dodgerblue"
+    x="5"
+    y="0"
+      />
+    
+    <agent
+    id="setaa"
+    image="seta.png"
+    x="440"
+    y="70"
+     width="50" 
+    height=""
+    animation="fade-pulse"
+    on_click="goToPage('final2-5')"
+    />
+
+     <agent 
+    id="vilão2"
+    image="vil_o.PNG"
+    x="350" 
+    y="260" 
+    width="100" 
+    height="200"
+  />
+</page>
+<page id="final2-5" bg_image="Floresta.png" bg_music="osts-stage.mp3">
+   
+  <agent id="Elarin6"      
+    image="Elarin_costas.png"
+    x="370"
+    y="200"
+    width="400" 
+    height="400"/>
+
+<agent 
+    id="image7" 
+    image="Tackfet costas.png"
+    x="20" 
+    y="150" 
+    width="400" 
+    height="490"
+  />
+     <agent id="fala-elarin5" 
+      text="Ó que bicho desgraçado, nem ora se oferecer pra ficar..." 
+    x="310"
+    font-size="22"
+    animation="typewriter"
+    color="black"
+     width="500" 
+    height="100"
+    border="solid"
+    bg_color="bisque"/>
+    
+    <agent
+    id="seta1"
+    image="seta.png"
+    x="600"
+    y="70"
+     width="50" 
+    height=""
+    animation="fade-pulse"
+    on_click="goToPage('final2-6')"
+    />
+
+     <agent 
+    id="vilão2"
+    image="vil_o.PNG"
+    x="350" 
+    y="260" 
+    width="100" 
+    height="200"
+  />
+</page> 
+  <page id="final2-6" bg_image="capa.png">
+    
+</page>
 </fable>
