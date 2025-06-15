@@ -1040,10 +1040,10 @@
     />
     
     <agent
-    id="seta1"
+    id="seta3"
     image="seta.png"
-    x="40"
-    y="20"
+    x="400"
+    y="200"
      width="50" 
     height=""
     animation="fade-pulse"
@@ -1052,6 +1052,48 @@
     
 </page>
   <page id="final2-7" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
+    <agent id="tack" 
+      image="personagem.png"
+      x="20"
+      y="230"
+      width="200" 
+      height="360"
+      />
+
+     <agent id="ritual" 
+      image="runa.png"
+      x="260"
+      y="230"
+      width="60" 
+      height="360"
+      animation="float"
+      />
+      <agent id="fala"
+      text="Finalmente te encontrei, seu verme. Acho que você tem algo que me pertence, eu eu vou ter nem que tenha que arrancar do seu cadáver!" 
+     border="dashed"   
+     bg_color="black"
+     color=""
+     font-size="24"
+      x="350"
+      y="10"
+      width="460" 
+      height="260"
+      animation="typewriter"
+      radius="20"
+    />
+    
+    <agent
+    id="seta1"
+    image="seta.png"
+    x="700"
+    y="220"
+     width="50" 
+    height=""
+    animation="fade-pulse"
+    on_click="goToPage('final2-8')"
+    />
+  </ page>
+  <page id="final2-8" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
     <agent id="tack" 
       image="personagem.png"
       x="20"
@@ -1090,7 +1132,7 @@
      width="50" 
     height=""
     animation="fade-pulse"
-    on_click="goToPage('final2-9')"
-    />
-  </ page>
+    on_click="goToPage('final2-8')"
+      />
+  </page>
 </fable>
