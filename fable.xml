@@ -250,6 +250,16 @@
     width="400" 
     height="490"
     />
+    <agent id="fala-elarin" 
+      text="Agora está em suas mãos, Tackfet. Conto com você." 
+    x="310"
+    font-size="22"
+    animation="typewriter"
+    color="black"
+     width="500" 
+    height="180"
+    border="solid"
+    bg_color="bisque"/>
 
 
     
