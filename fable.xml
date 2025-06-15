@@ -72,7 +72,7 @@
     />
 
 </page>
-  <page id="pagina3" bg_image="art/trilha_escura.png" bg_music="audio/tema_tensao.mp3">
+  <page id="pagina3" bg_image="Floresta.png" bg_music="osts-retro-forest.mp3">
   <config font-family="Georgia" />
 
   <character
