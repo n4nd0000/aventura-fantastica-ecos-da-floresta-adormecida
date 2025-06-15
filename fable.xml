@@ -375,9 +375,34 @@
     x="5"
     y="0"
       />
-   
-    
-    
+    <fab-if when="$contador = 100">
+    <agent id="botao" 
+      x="480" 
+      y="110"  
+      text="Elearin está curado!"       
+      
+      border="dasher"
+      bg_color="blue"
+      width="300" 
+      height="50"
+      font-size="25"
+      radius="30"
       />
+      <agent id="botao2" 
+      x="480" 
+      y="500"  
+      text="Clique aqui para continuar"       
+      on_click="goToPage('pagina10')"
+      border="dasher"
+      bg_color="blue"
+      width="300" 
+      height="80"
+      font-size="25"
+      radius="30"
+      />
+    </fab-if>
+   />
+</page>
+  <page id="pagina10">
 </page>
 </fable>
