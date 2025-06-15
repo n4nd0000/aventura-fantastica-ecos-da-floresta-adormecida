@@ -1015,7 +1015,7 @@
     height="200"
   />
 </page> 
-  <page id="final2-6" bg_image="capa.png">
+  <page id="final2-6" bg_image="capa.png" bg_music="">
     
 </page>
 </fable>
