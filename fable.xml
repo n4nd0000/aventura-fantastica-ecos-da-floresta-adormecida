@@ -341,12 +341,26 @@
     />
     <agent
     id="display-vida"
-    x="30"
-    y="300"
-    text="❤️ Vida do Herói: $vida_heroi"
+    x="500"
+    y="120"
+    text="❤️ Vida do Herói:10 $vida_heroi"
     color="#ff6b6b"
-    font-size="16"
+    font-size="25"
+    border="dashed"
+    border_color="white"
+    bg_color="floralwhite"
+    width="" 
+    height="40"
       />
+     <agent
+     id="botao-vida-mais"
+    x="300"
+    y="230"
+    text="+10 Vida"
+    color="#ffffff"
+    font-size="14"
+    on_click="set(vida_heroi, $vida_heroi + 10)"
+  />
     
 </page>
 </fable>
