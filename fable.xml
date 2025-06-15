@@ -711,7 +711,10 @@
     />
 </page>
   <page id="final 1-3">
-    <agent id="texto" text="É... No final, os dois farmaram aura, mas foram brutalmente molestados. F no chat, família :'('" />
+    <agent id="texto" text="É... No final, os dois farmaram aura, mas foram brutalmente molestados. F no chat, família, muito triste :'("  
+      x="center"
+      y="center"
+      animation="typewriter" />
     
     
 </page>
