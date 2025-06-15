@@ -339,6 +339,14 @@
     width="400" 
     height="490"
     />
+    <agent
+    id="display-vida"
+    x="30"
+    y="300"
+    text="❤️ Vida do Herói: $vida_heroi"
+    color="#ff6b6b"
+    font-size="16"
+      />
     
 </page>
 </fable>
