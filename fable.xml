@@ -22,17 +22,13 @@
     height="250"
     />
   <agent
-    id="iniciar"
-      x="350"
-      y="450"
-      text="INICIAR"
-      bg_color="black"
-      animation="hover-bg-color-[green]"
-      color="white"
-      radius="12"
-      font-size="26"
-      width="140"
-      height="50"
+    id="botao_iniciar"
+    text="Iniciar"
+    color="darkred"
+    font-size="36"
+    x="600"
+    y="500"
+    animation="pulse"
     on_click='goToPage("pagina2")'
   />
   
@@ -49,6 +45,7 @@
     y="0"
     font-size="25"
     animation="typewriter"
+   
   />
    <agent 
     id="imagem2" 
