@@ -3,7 +3,7 @@
  <page id="Início" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
 
   <config font-family="Caveat" />
-  <property name="textoConcluido" default="false" />
+  
   <agent 
     id="titulo" 
     image="título.png"
@@ -73,6 +73,7 @@
     />
 
 </page>
+  <property name = "textoConcluido" default="false" />
   <page id="pagina3" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
   
   <agent
