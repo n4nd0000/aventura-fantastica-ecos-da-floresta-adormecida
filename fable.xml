@@ -89,12 +89,15 @@
     id="fala_elarin"
     text="Tackfet... eles... vieram das sombras... estão levando a essência das Runas... Não sabemos como pará-los... mas a Guardiã do Luar pode te guiar..."
     x="center"
-    y="270"
-    font-size="25"
+    y="430"
+    font-size="22"
     animation="typewriter"
     color="black"
-    width="600" 
-    height="450"
+    width="550" 
+    height="150"
+    border="dashedd"
+    bg_color="dodgerblue"
+    radius="20"
   />
 
   <agent
