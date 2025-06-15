@@ -592,7 +592,7 @@
     bg_color="dodgerblue"
     x="5"
     y="0"
-    on_click="gotopage"
+    on_click="goToPage('final 1')"
       />
 
      <agent id="opção2"
@@ -606,11 +606,12 @@
     bg_color="dodgerblue"
     x="500"
     y="0"
-    on_click=""
+    on_click="gotopage('final2')"
     
       />
   
   </page>
-  
+  <page id="final 1">
+</page>
 
 </fable>
