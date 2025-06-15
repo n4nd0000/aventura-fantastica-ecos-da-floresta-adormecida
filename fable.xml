@@ -235,7 +235,7 @@
 </page>
   <page id="pagina7" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
         <agent
-    id="elarin3"
+    id="elarin5"
     image="Elarin.png"
     x="450"
     y="150"
@@ -243,7 +243,7 @@
     height="450"
     />
      <agent 
-    id="imagem1" 
+    id="imagem" 
     image="personagem.png"
     x="50" 
     y="150" 
