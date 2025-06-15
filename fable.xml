@@ -363,7 +363,7 @@
       animation=""
       />
     <agent id="fala-tackfe2t"
-      text="Faça a vida de Elearin chegar aos 100 Pontos!" 
+      text="Faça a vida de Elearin chegar aos 100 Pontos clicando nele!" 
     
      animation="typewriter"
     font-size="25"
@@ -375,7 +375,13 @@
     x="5"
     y="0"
       />
-    <fab-if when=>
+   <fab-if when="&contador => 100">
+     <agent id="botão"
+       text="Proxima Página" 
+       x="450"
+       y="150"
+       width="400" 
+       height="450"/>
 </fab-if>
   />
     
