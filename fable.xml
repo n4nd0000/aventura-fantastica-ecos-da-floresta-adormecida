@@ -72,5 +72,53 @@
     />
 
 </page>
+  <page id="pagina3" bg_image="art/trilha_escura.png" bg_music="audio/tema_tensao.mp3">
+  <config font-family="Georgia" />
+
+  <character
+    id="elarin_sentinela"
+    image="chars/elarin_ferido.png"
+    x="300"
+    y="center"
+    animation="fadeIn"
+  />
+
+  <agent
+    id="fala_elarin"
+    type="dialog"
+    speaker="Elarin"
+    text="Tackfet... eles... vieram das sombras... estão levando a essência das Runas... Não sabemos como pará-los... mas a Guardiã do Luar pode te guiar..."
+    x="center"
+    y="450"
+  />
+
+  <agent
+    id="narracao2"
+    text="Ele tossiu sangue verde e desmaiou. O que você deseja fazer?"
+    color="#FFDDDD"
+    font-size="22"
+    x="center"
+    y="580"
+  />
+  
+  <choices x="center" y="650">
+    <choice 
+      text="1. Seguir direto até o Círculo de Runas Vivas" 
+      description="O perigo pode ser grande, mas cada segundo conta. Talvez eu consiga impedir o ritual sombrio a tempo."
+      on_click="goToPage('rota_runas')" 
+    />
+    <choice 
+      text="2. Procurar a Guardiã do Luar na Clareira da Névoa" 
+      description="Ela é uma antiga aliada dos druidas e pode ter conhecimento para enfrentar essa escuridão."
+      on_click="goToPage('rota_guardia')" 
+    />
+    <choice 
+      text="3. Tentar curar Elarin antes de prosseguir"
+      description="Eu não posso simplesmente abandonar um irmão de aliança. Se ele sobreviver, poderá me ajudar." 
+      on_click="goToPage('rota_cura')" 
+    />
+  </choices>
+
+</page>
 
 </fable>
