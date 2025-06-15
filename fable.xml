@@ -79,23 +79,24 @@
     image="Elarin.png"
     x="200"
     y="150"
-    animation="fadeIn"
+    animation="fade-in"
      width="400" 
     height="450"
   />
 
   <agent
     id="fala_elarin"
-    type="dialog"
-    speaker="Elarin"
     text="Tackfet... eles... vieram das sombras... estão levando a essência das Runas... Não sabemos como pará-los... mas a Guardiã do Luar pode te guiar..."
     x="center"
     y="450"
+    font-size="25"
+    animation="typewriter"
+    color="black"
   />
 
   <agent
     id="narracao2"
-    text="Ele tossiu sangue verde e desmaiou. O que você deseja fazer?"
+    text="Ele tossiu sangue e desmaiou. O que você deseja fazer?"
     color="#FFDDDD"
     font-size="22"
     x="center"
