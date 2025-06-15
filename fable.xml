@@ -1,5 +1,5 @@
 <fable>
-<property name="vida_elarin = 0" default="0" />
+<property name="vida_elarin" default="0" />
  <page id="Início" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
 
   <config font-family="Caveat" />
