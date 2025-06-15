@@ -73,7 +73,6 @@
     />
 
 </page>
-  <property name = "textoConcluido" default="false" />
   <page id="pagina3" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
   
   <agent
@@ -155,6 +154,33 @@
     />
   />
   
+</page>
+  <page id="pagina5" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
+   
+    <agent
+    id="elarin3"
+    image="Elarin.png"
+    x="200"
+    y="150"
+     width="400" 
+    height="450"
+    />
+
+     <agent
+    id="fala_elarin3"
+    text="Pegue isto."
+    x="center"
+    y="30"
+    font-size="22"
+    animation="typewriter"
+    color="black"
+    width="550" 
+    height="150"
+    border="dashed"
+    bg_color="bisque"
+    radius="20"
+    />
+    
 </page>
 
   
