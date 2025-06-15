@@ -14,7 +14,7 @@
     y="0" 
     width="600" 
     height="350"
-    animation=
+    animation="glow"
     />
   <agent 
     id="imagem1" 
