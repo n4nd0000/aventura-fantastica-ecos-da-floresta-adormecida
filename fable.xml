@@ -1015,7 +1015,46 @@
     height="200"
   />
 </page> 
-  <page id="final2-6" bg_image="capa.png" bg_music="">
+  <page id="final2-6" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
+    <agent id="tack" 
+      image="personagem.png"
+      x="20"
+      y="230"
+      width="200" 
+      height="360"
+      />
+
+     <agent id="ritual" 
+      image="runa.png"
+      x="260"
+      y="230"
+      width="60" 
+      height="360"
+      animation="float"
+      />
+      <agent id="fala"
+      text="Quais eram mesmo as palavras do ritual?? Ah sim, lembrei! HAKUNA MATATA!" 
+     border="dashed"   
+     bg_color="skyblue"
+     color="black"
+     font-size="24"
+      x="260"
+      y="230"
+      width="460" 
+      height="160"
+      animation="typewriter"
+    />
+    
+    <agent
+    id="seta1"
+    image="seta.png"
+    x="600"
+    y="70"
+     width="50" 
+    height=""
+    animation="fade-pulse"
+    on_click="goToPage('final2-4')"
+    />
     
 </page>
 </fable>
