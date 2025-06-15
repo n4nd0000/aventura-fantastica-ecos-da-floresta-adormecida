@@ -64,11 +64,11 @@
     x="450"
     y="500"
     animation="hover-float"
-    
+    on_click='goToPage("pagina3)'
   />
 </page>
-  <page id="prologo_cena2" bg_image="art/trilha_escura.png" bg_music="audio/tema_tensao.mp3">
-  <config font-family="Georgia" />
+  <page id="pagina3" bg_music="osts-stage.mp3">
+  <config font-family="Amatic SC" />
 
   <character
     id="elarin_sentinela"
@@ -90,7 +90,7 @@
   <agent
     id="narracao2"
     type="narration"
-    text="Ele tossiu sangue verde e desmaiou. O que você deseja fazer?"
+    text="Ele desmaiou. O que você deseja fazer?"
     color="#FFDDDD"
     font-size="22"
     x="center"
