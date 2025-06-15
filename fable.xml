@@ -411,13 +411,13 @@
     width="500" 
     height="450"/>
 
-    <agent 
-    id="imagem1" 
+<agent 
+    id="image4" 
     image="personagem.png"
-    x="00" 
-    y="300" 
-    width="200" 
-    height="250"
-    />
+    x="50" 
+    y="150" 
+    width="400" 
+    height="490"
+  />
 </page>
 </fable>
