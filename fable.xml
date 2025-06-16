@@ -1,6 +1,6 @@
 <fable>
   <property name="contador" default="10" />
-  <page id="Início" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
+  <page id="Início" bg_image="capa.png" bg_music="osts-song.mp3">
     <config font-family="Caveat" />
 
     <agent
@@ -1268,7 +1268,7 @@
       on_click="goToPage('final2-11')"
     />
   </page>
-  <page id="final2-11" bg_image="capa.png" bg_music="osts-vilo.mp3">
+  <page id="final2-11" bg_image="capa.png" bg_music="osts-song.mp3">
     <agent
       id="tack"
       image="personagem.png"
@@ -1291,7 +1291,18 @@
       height="160"
       animation="typewriter"
       radius="20"
+      
     />
+    <agent
+      id="seta3"
+      image="seta.png"
+      x="400"
+      y="200"
+      width="50"
+      height=""
+      animation="fade-pulse"
+      on_click="goToPage('Início')"
+      />
 
    
   </page>
