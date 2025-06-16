@@ -1245,24 +1245,7 @@
       x="250"
       y="230"
       width="500"
-      height="200"
-    />
-
-    <agent
-      id="tack"
-      image="captura_de_tela_2025_06_15_210840_removebg_preview.png"
-      x="250"
-      y="130"
-      width="500"
-      height="400"
-    />
-    <agent
-      id="tack"
-      image="captura_de_tela_2025_06_15_210840_removebg_preview.png"
-      x="250"
-      y="130"
-      width="500"
-      height="500"
+      height="250"
     />
     <agent
       id="tack"
