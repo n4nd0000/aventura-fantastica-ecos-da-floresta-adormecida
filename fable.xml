@@ -220,7 +220,7 @@
       id="botao_continuar"
       text="Continuar"
       color="black"
-      font-size="36"
+      font-size="35"
       x="600"
       y="500"
       animation="pulse"
@@ -1143,7 +1143,7 @@
     />
     <agent
       id="fala"
-      text="Beleza, beleza, cê é o fodão e quer a runa e tals, deixa eu só te falar um negócio aqui rapidão... Avada..."
+      text="Beleza, beleza, cê é o fodão e quer a runa e tals, deixa eu só te falar um negócio aqui rapidão... Kame..."
       border="dashed"
       bg_color="skyblue"
       color="black"
@@ -1196,7 +1196,7 @@
     />
     <agent
       id="fala"
-      text="Avada??"
+      text="Kame??"
       border="dashed"
       bg_color="black"
       color=""
@@ -1241,10 +1241,35 @@
     <agent
       id="tack"
       image="captura_de_tela_2025_06_15_210840_removebg_preview.png"
-      x="200"
+      x="250"
       y="230"
       width="500"
-      height="360"
+      height="200"
+    />
+
+    <agent
+      id="tack"
+      image="captura_de_tela_2025_06_15_210840_removebg_preview.png"
+      x="250"
+      y="130"
+      width="500"
+      height="400"
+    />
+    <agent
+      id="tack"
+      image="captura_de_tela_2025_06_15_210840_removebg_preview.png"
+      x="250"
+      y="130"
+      width="500"
+      height="500"
+    />
+    <agent
+      id="tack"
+      image="captura_de_tela_2025_06_15_210840_removebg_preview.png"
+      x="250"
+      y="130"
+      width="500"
+      height="600"
     />
 
     <agent
@@ -1270,7 +1295,7 @@
       width="50"
       height=""
       animation="fade-pulse"
-      on_click="goToPage('final2-9')"
+      on_click="goToPage('final2-11')"
     />
   </page>
 </fable>
