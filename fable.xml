@@ -1109,6 +1109,7 @@
       y="300"
       width="200"
       height="200"
+      animation="fade-in"
     />
 
     <agent
