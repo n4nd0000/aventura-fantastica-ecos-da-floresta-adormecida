@@ -1190,4 +1190,54 @@
     height="200"
   />
   </page>
+
+  <page id="final2-8" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
+    <agent id="tack" 
+      image="personagem.png"
+      x="20"
+      y="230"
+      width="200" 
+      height="360"
+      />
+
+     <agent id="ritual" 
+      image="runa.png"
+      x="260"
+      y="230"
+      width="60" 
+      height="360"
+      animation="float"
+      />
+      <agent id="fala"
+      text="Beleza, beleza, cê é o fodão e quer a runa e tals, deixa eu só te falar um negócio aqui rapidão... Avada..." 
+     border="dashed"   
+     bg_color="skyblue"
+     color="black"
+     font-size="24"
+      x="30"
+      y="90"
+      width="460" 
+      height="160"
+      animation="typewriter"
+      radius="20"
+    />
+     <agent 
+    id="vilão2"
+    image="vil_o.PNG"
+    x="590" 
+    y="300" 
+    width="200" 
+    height="200"
+  />
+    
+    <agent
+    id="seta1"
+    image="seta.png"
+    x="400"
+    y="200"
+     width="50" 
+    height=""
+    animation="fade-pulse"
+    on_click="goToPage('final2-9')"
+      />
 </fable>
