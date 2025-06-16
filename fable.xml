@@ -13,6 +13,16 @@
       animation="glow"
     />
     <agent
+      id="ritual"
+      image="runa.png"
+      x="center"
+      y="150"
+      width="60"
+      height="360"
+      animation="float"
+    />
+
+    <agent
       id="imagem1"
       image="personagem.png"
       x="00"
