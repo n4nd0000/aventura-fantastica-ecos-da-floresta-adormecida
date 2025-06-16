@@ -139,6 +139,7 @@
       y="150"
       width="400"
       height="450"
+      animation="bounce-in"
     />
 
     <agent
