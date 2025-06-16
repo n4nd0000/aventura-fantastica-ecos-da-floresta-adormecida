@@ -1219,10 +1219,10 @@
       width="50"
       height=""
       animation="fade-pulse"
-      on_click="goToPage('final2-11')"
+      on_click="goToPage('final2-10')"
     />
   </page>
-  <page id="final2-11" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
+  <page id="final2-10" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
     <agent
       id="tack"
       image="personagem.png"
@@ -1265,10 +1265,10 @@
       width="50"
       height=""
       animation="fade-pulse"
-      on_click="goToPage('final2-12')"
+      on_click="goToPage('final2-11')"
     />
   </page>
-  <page id="final2-12" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
+  <page id="final2-11" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
     <agent
       id="tack"
       image="personagem.png"
@@ -1290,7 +1290,7 @@
 
     <agent
       id="fala"
-      text="E ainda tá cedo, será que dá tempo de ir no bambu?"
+      text="E ainda tá cedo, será que dá tempo de ir no bambu? Tô brincando, obrigado por acompanhar minha aventura!!"
       border="dashed"
       bg_color="skyblue"
       color="black"
