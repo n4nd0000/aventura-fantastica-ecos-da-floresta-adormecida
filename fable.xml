@@ -690,7 +690,7 @@
     />
     <agent
       id="fala-elarin5"
-      text="Se você diz, eu lutarei ao seu lado até a minha morte, meu amigo"
+      text="Se você diz, eu lutarei ao seu lado até a minha morte, meu amigo. VAMOS LÁ!!"
       x="310"
       font-size="22"
       animation="typewriter"
@@ -712,10 +712,10 @@
       on_click="goToPage('final1-3)"
     />
   </page>
-  <page id="final1-3">
+  <page id="final1-3" bg_music="osts-retro-forest.mp3">
     <agent
       id="texto"
-      text="É... No final, os dois farmaram aura, mas foram brutalmente molestados. F no chat, família, muito triste :'("
+      text="É... No final, os dois farmaram aura, mas foram brutalmente molestados por Viremor, O Devorador Do Luar. F no chat, família, muito triste :'("
       x="center"
       y="center"
       animation="typewriter"
@@ -1291,7 +1291,6 @@
       height="160"
       animation="typewriter"
       radius="20"
-      
     />
     <agent
       id="seta3"
@@ -1302,8 +1301,6 @@
       height=""
       animation="fade-pulse"
       on_click="goToPage('Início')"
-      />
-
-   
+    />
   </page>
 </fable>
