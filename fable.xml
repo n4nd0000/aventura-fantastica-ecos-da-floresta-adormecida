@@ -629,7 +629,7 @@
     />
     <agent
       id="fala-tackfe7"
-      text="Ficaremos e lutaremos, nós somos única coisa entre ele e a runa. se perdermos, acabou..."
+      text="Ficaremos e lutaremos, nós somos a única coisa entre ele e a runa. Se perdermos, acabou..."
       animation="typewriter"
       font-size="25"
       color="black"
@@ -897,7 +897,7 @@
     />
     <agent
       id="fala-elarin5"
-      text="Então vai, eu fico pra atrasar ele"
+      text="Então vai, eu fico pra atrasar ele."
       x="310"
       font-size="22"
       animation="typewriter"
@@ -992,7 +992,7 @@
 
     <agent
       id="fala-elarin5"
-      text="Ó que bicho desgraçado, nem ora se oferecer pra ficar..."
+      text="Ó que bicho desgraçado, nem pra se oferecer pra ficar..."
       x="310"
       font-size="22"
       animation="typewriter"
@@ -1090,7 +1090,7 @@
     />
     <agent
       id="fala"
-      text="Finalmente te encontrei, seu verme. Acho que você tem algo que me pertence, eu eu vou ter nem que tenha que arrancar do seu cadáver, por que EU SOU INEVITÁVEL!!"
+      text="Finalmente te encontrei, seu verme. Acho que você tem algo que me pertence, e eu vou pegar nem que tenha que arrancar do seu cadáver, por que EU SOU INEVITÁVEL!!"
       border="dashed"
       bg_color="black"
       color=""
