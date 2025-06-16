@@ -1,76 +1,69 @@
 <fable>
- <property name="contador" default="10" />
- <page id="Início" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
+  <property name="contador" default="10" />
+  <page id="Início" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
+    <config font-family="Caveat" />
 
-  <config font-family="Caveat" />
-  
-  <agent 
-    id="titulo" 
-    image="título.png"
-    x="100" 
-    y="0" 
-    width="600" 
-    height="350"
-    animation="glow"
+    <agent
+      id="titulo"
+      image="título.png"
+      x="100"
+      y="0"
+      width="600"
+      height="350"
+      animation="glow"
     />
-  <agent 
-    id="imagem1" 
-    image="personagem.png"
-    x="00" 
-    y="300" 
-    width="200" 
-    height="250"
+    <agent
+      id="imagem1"
+      image="personagem.png"
+      x="00"
+      y="300"
+      width="200"
+      height="250"
     />
-   <agent 
-    id="vilão" 
-    image="vil_o.PNG"
-    x="600" 
-    y="300" 
-    width="200" 
-    height="250"
+    <agent
+      id="vilão"
+      image="vil_o.PNG"
+      x="600"
+      y="300"
+      width="200"
+      height="250"
     />
-  <agent
-    id="botao_iniciar"
-    text="Press To Play"
-    color="blue"
-    font-size="36"
-    x="300"
-    y="400"
-    animation="pulse"
-    on_click='goToPage("pagina2")'
-    border="dotted"
-    bg_color="skyblue"
-    radius="20"
-  />
-  
-
-
-</page>
-<page id="pagina2" bg_image="house.png" bg_music="osts-retro-forest.mp3">
-
-  <agent
-    
-    id="narracao"
-    text="Acordei com o cheiro úmido da mata vindo do leste. O santuário de Melvendil estava silencioso... silencioso demais. As corujas da floresta haviam parado de cantar, e as flores-de-luz que eu mesmo havia cultivado pareciam murchas."
-    x="3"
-    y="0"
-    font-size="25"
-    animation="typewriter"
-    width="790" 
-    height="250"
-    border="solid"
-    bg_color="dodgerblue"
-   
-  />
-   <agent 
-    id="imagem2" 
-    image="personagem.png"
-    x="200" 
-    y="330" 
-    width="200" 
-    height="250"
+    <agent
+      id="botao_iniciar"
+      text="Press To Play"
+      color="blue"
+      font-size="36"
+      x="300"
+      y="400"
+      animation="pulse"
+      on_click="goToPage(&quot;pagina2&quot;)"
+      border="dotted"
+      bg_color="skyblue"
+      radius="20"
     />
-  <agent
+  </page>
+  <page id="pagina2" bg_image="house.png" bg_music="osts-retro-forest.mp3">
+    <agent
+      id="narracao"
+      text="Acordei com o cheiro úmido da mata vindo do leste. O santuário de Melvendil estava silencioso... silencioso demais. As corujas da floresta haviam parado de cantar, e as flores-de-luz que eu mesmo havia cultivado pareciam murchas."
+      x="3"
+      y="0"
+      font-size="25"
+      animation="typewriter"
+      width="790"
+      height="250"
+      border="solid"
+      bg_color="dodgerblue"
+    />
+    <agent
+      id="imagem2"
+      image="personagem.png"
+      x="200"
+      y="330"
+      width="200"
+      height="250"
+    />
+    <agent
       id="btn-dotted"
       x="540"
       y="500"
@@ -86,36 +79,34 @@
       height="70"
       on_click="goToPage('pagina3')"
     />
-
-</page>
+  </page>
   <page id="pagina3" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
-  
-  <agent
-    id="elarin"
-    image="Elarin.png"
-    x="200"
-    y="150"
-    animation="fade-in"
-     width="400" 
-    height="450"
-  />
-
-  <agent
-    id="fala_tackfet"
-    text="Ao adentrar a floresta, vejo o que parece ser um velho amigo meu, Elarin, que parece bastante ferido. Vejamos o que ele tem a dizer."
-    x="center"
-    y="0"
-    font-size="22"
-    animation="typewriter"
-    color="black"
-    width="790" 
-    height="150"
-    border="solid"
-    bg_color="dodgerblue"
-    radius=""
+    <agent
+      id="elarin"
+      image="Elarin.png"
+      x="200"
+      y="150"
+      animation="fade-in"
+      width="400"
+      height="450"
     />
-      
-   <agent 
+
+    <agent
+      id="fala_tackfet"
+      text="Ao adentrar a floresta, vejo o que parece ser um velho amigo meu, Elarin, que parece bastante ferido. Vejamos o que ele tem a dizer."
+      x="center"
+      y="0"
+      font-size="22"
+      animation="typewriter"
+      color="black"
+      width="790"
+      height="150"
+      border="solid"
+      bg_color="dodgerblue"
+      radius=""
+    />
+
+    <agent
       id="Botão"
       x="290"
       y="450"
@@ -127,194 +118,191 @@
       font-size="16"
       width="120"
       height="40"
-      on_click="goToPage('pagina4')"/>
+      on_click="goToPage('pagina4')"
+    />
+  </page>
 
-
-</page>
-  
   <page id="pagina4" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
-  
-  <agent
-    id="elarin2"
-    image="Elarin.png"
-    x="200"
-    y="150"
-     width="400" 
-    height="450"
-    />
-    
     <agent
-    id="fala_elarin"
-    text="Tackfet... ele... ele veio das sombras... está levando a essência das Runas... ele tem um poder imensurável e não sabemos como pará-lo... Ele se chama de Viremor, O Devorador Do Luar!"
-    x="center"
-    y="0"
-    font-size="22"
-    animation="typewriter"
-    color="black"
-     width="790" 
-    height="180"
-    border="solid"
-    bg_color="bisque"
-    
+      id="elarin2"
+      image="Elarin.png"
+      x="200"
+      y="150"
+      width="400"
+      height="450"
+    />
+
+    <agent
+      id="fala_elarin"
+      text="Tackfet... ele... ele veio das sombras... está levando a essência das Runas... ele tem um poder imensurável e não sabemos como pará-lo... Ele se chama de Viremor, O Devorador Do Luar!"
+      x="center"
+      y="0"
+      font-size="22"
+      animation="typewriter"
+      color="black"
+      width="790"
+      height="180"
+      border="solid"
+      bg_color="bisque"
     />
     <agent
-    id="seta"
-    image="seta.png"
-    x="600"
-    y="110"
-     width="50" 
-    height="100"
-    animation="fade-pulse"
-    on_click="goToPage('pagina5')"
+      id="seta"
+      image="seta.png"
+      x="600"
+      y="110"
+      width="50"
+      height="100"
+      animation="fade-pulse"
+      on_click="goToPage('pagina5')"
     />
-  />
-  
-</page>
+    />
+  </page>
   <page id="pagina5" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
-   
     <agent
-    id="elarin3"
-    image="Elarin.png"
-    x="200"
-    y="150"
-     width="400" 
-    height="450"
-    />
-
-     <agent
-    id="fala_elarin3"
-    text="Mas existe algo que ele deseja e que pode nos ajudar a derrotá-lo. Pegue isto."
-    x="center"
-    y=""
-    font-size="22"
-    animation="typewriter"
-    color="black"
-    width="790" 
-    height="100"
-    border="solid"
-    bg_color="bisque"
+      id="elarin3"
+      image="Elarin.png"
+      x="200"
+      y="150"
+      width="400"
+      height="450"
     />
 
     <agent
-    id="elarin4"
-    image="runa.png"
-    x="600"
-    y="200"
-     width="100" 
-    height="100"
-    animation="fade-in-up float glow"
-    on_click="goToPage('pagina6')"
+      id="fala_elarin3"
+      text="Mas existe algo que ele deseja e que pode nos ajudar a derrotá-lo. Pegue isto."
+      x="center"
+      y=""
+      font-size="22"
+      animation="typewriter"
+      color="black"
+      width="790"
+      height="100"
+      border="solid"
+      bg_color="bisque"
     />
-</page>
-<page id="pagina6" bg_image="forest-noite.png" bg_music="osts-vilo.mp3">
-    <agent 
+
+    <agent
+      id="elarin4"
+      image="runa.png"
+      x="600"
+      y="200"
+      width="100"
+      height="100"
+      animation="fade-in-up float glow"
+      on_click="goToPage('pagina6')"
+    />
+  </page>
+  <page id="pagina6" bg_image="forest-noite.png" bg_music="osts-vilo.mp3">
+    <agent
       id="runa"
       image="runa.png"
       x="190"
       y="150"
-      width="400" 
+      width="400"
       height="500"
       animation="fade-in-up float glow"
-      
-      />
-  <agent id="descrição runa"
-         text="Forjada nas noites mais profundas pelas próprias mãos da Guardiã do Luar, a Runa da Guardiã do Luar é um artefato sagrado imbuído com a essência da lua crescente que concede algumas habilidades para aquele que a tiver." 
-    animation="typewriter"
-    font-size="25"
-    color="black"
-    width="790" 
-    height="190"
-    border="solid"
-    bg_color="dodgerblue"
-    x="5"
-    y="0"
+    />
+    <agent
+      id="descrição runa"
+      text="Forjada nas noites mais profundas pelas próprias mãos da Guardiã do Luar, a Runa da Guardiã do Luar é um artefato sagrado imbuído com a essência da lua crescente que concede algumas habilidades para aquele que a tiver."
+      animation="typewriter"
+      font-size="25"
+      color="black"
+      width="790"
+      height="190"
+      border="solid"
+      bg_color="dodgerblue"
+      x="5"
+      y="0"
     />
 
-  <agent 
-    id="botao_continuar"
-    text="Continuar"
-    color="black"
-    font-size="36"
-    x="600"
-    y="500"
-    animation="pulse"
-    on_click='goToPage("pagina7")'
-    border="solid"
-    bg_color="aqua"
+    <agent
+      id="botao_continuar"
+      text="Continuar"
+      color="black"
+      font-size="36"
+      x="600"
+      y="500"
+      animation="pulse"
+      on_click="goToPage(&quot;pagina7&quot;)"
+      border="solid"
+      bg_color="aqua"
     />
     />
-</page>
+  </page>
   <page id="pagina7" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
-        <agent
-    id="elarin5"
-    image="Elarin.png"
-    x="450"
-    y="150"
-     width="400" 
-    height="450"
+    <agent
+      id="elarin5"
+      image="Elarin.png"
+      x="450"
+      y="150"
+      width="400"
+      height="450"
     />
-     <agent 
-    id="imagem" 
-    image="personagem.png"
-    x="50" 
-    y="150" 
-    width="400" 
-    height="490"
+    <agent
+      id="imagem"
+      image="personagem.png"
+      x="50"
+      y="150"
+      width="400"
+      height="490"
     />
-    <agent id="fala-elarin" 
-      text="Agora está em suas mãos, Tackfet. Conto com você." 
-    x="310"
-    font-size="22"
-    animation="typewriter"
-    color="black"
-     width="500" 
-    height="180"
-    border="solid"
-    bg_color="bisque"/>
+    <agent
+      id="fala-elarin"
+      text="Agora está em suas mãos, Tackfet. Conto com você."
+      x="310"
+      font-size="22"
+      animation="typewriter"
+      color="black"
+      width="500"
+      height="180"
+      border="solid"
+      bg_color="bisque"
+    />
 
-     <agent
-    id="set1"
-    image="seta.png"
-    x="700"
-    y="110"
-     width="50" 
-    height="100"
-    animation="fade-pulse"
-    on_click="goToPage('pagina8')"
+    <agent
+      id="set1"
+      image="seta.png"
+      x="700"
+      y="110"
+      width="50"
+      height="100"
+      animation="fade-pulse"
+      on_click="goToPage('pagina8')"
     />
-    </page>
-  <page id="pagina8" bg_image="Floresta.png" bg_music="osts-vilo.mp3"> 
-     <agent
-    id="elarin6"
-    image="Elarin.png"
-    x="450"
-    y="150"
-     width="400" 
-    height="450"
+  </page>
+  <page id="pagina8" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
+    <agent
+      id="elarin6"
+      image="Elarin.png"
+      x="450"
+      y="150"
+      width="400"
+      height="450"
     />
-    
-    <agent 
-    id="image3" 
-    image="personagem.png"
-    x="50" 
-    y="150" 
-    width="400" 
-    height="490"
+
+    <agent
+      id="image3"
+      image="personagem.png"
+      x="50"
+      y="150"
+      width="400"
+      height="490"
     />
-    <agent id="fala-tackfet"
-      text="Certo, mas antes de ir, me deixe curar seus ferimentos" 
-    
-     animation="typewriter"
-    font-size="25"
-    color="black"
-    width="490" 
-    height="190"
-    border="solid"
-    bg_color="dodgerblue"
-    x="5"
-    y="0"
-      />
-     <agent
+    <agent
+      id="fala-tackfet"
+      text="Certo, mas antes de ir, me deixe curar seus ferimentos"
+      animation="typewriter"
+      font-size="25"
+      color="black"
+      width="490"
+      height="190"
+      border="solid"
+      bg_color="dodgerblue"
+      x="5"
+      y="0"
+    />
+    <agent
       id="cura"
       x="500"
       y="400"
@@ -331,913 +319,958 @@
       on_click="goToPage('pagina9')"
     />
   </page>
- 
+
   <page id="pagina9" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
-         <agent
-    id="elarin7"
-    image="Elarin.png"
-    x="450"
-    y="150"
-     width="400" 
-    height="450"
+    <agent
+      id="elarin7"
+      image="Elarin.png"
+      x="450"
+      y="150"
+      width="400"
+      height="450"
     />
-    
-    <agent 
-    id="image4" 
-    image="personagem.png"
-    x="50" 
-    y="150" 
-    width="400" 
-    height="490"
+
+    <agent
+      id="image4"
+      image="personagem.png"
+      x="50"
+      y="150"
+      width="400"
+      height="490"
     />
-    
-    <agent id="botao_elarin" 
-       x="450"
-       y="150"
-       width="400" 
-       height="450"
+
+    <agent
+      id="botao_elarin"
+      x="450"
+      y="150"
+      width="400"
+      height="450"
       image="Elarin.png"
       on_click="set(contador, $contador + 2.5)"
       animation="click-shake"
-      />
-    
-    <agent id="contadorDisplay" 
-      x="480" 
-      y="110" 
+    />
+
+    <agent
+      id="contadorDisplay"
+      x="480"
+      y="110"
       text="Vida do Elarin = $contador"
       border="dasher"
       bg_color="blue"
-      width="300" 
+      width="300"
       height="50"
       font-size="25"
       radius="30"
       animation=""
-      />
-    <agent id="fala-tackfe2t"
-      text="Faça a vida de Elearin chegar aos 100 Pontos clicando nele!" 
-    
-    animation="typewriter"
-    font-size="25"
-    color="black"
-    width="450" 
-    height="140"
-    border="solid"
-    bg_color="dodgerblue"
-    x="5"
-    y="0"
-      />
+    />
+    <agent
+      id="fala-tackfe2t"
+      text="Faça a vida de Elearin chegar aos 100 Pontos clicando nele!"
+      animation="typewriter"
+      font-size="25"
+      color="black"
+      width="450"
+      height="140"
+      border="solid"
+      bg_color="dodgerblue"
+      x="5"
+      y="0"
+    />
     <fab-if when="$contador = 100">
-    <agent id="botao" 
-      x="480" 
-      y="110"  
-      text="Elearin está curado!"       
-      
-      border="dasher"
-      bg_color="blue"
-      width="300" 
-      height="50"
-      font-size="25"
-      radius="30"
+      <agent
+        id="botao"
+        x="480"
+        y="110"
+        text="Elearin está curado!"
+        border="dasher"
+        bg_color="blue"
+        width="300"
+        height="50"
+        font-size="25"
+        radius="30"
       />
-      <agent id="botao2" 
-      x="480" 
-      y="500"  
-      text="Clique aqui para continuar"       
-      on_click="goToPage('pagina10')"
-      border="dasher"
-      bg_color="blue"
-      width="300" 
-      height="80"
-      font-size="25"
-      radius="30"
+      <agent
+        id="botao2"
+        x="480"
+        y="500"
+        text="Clique aqui para continuar"
+        on_click="goToPage('pagina10')"
+        border="dasher"
+        bg_color="blue"
+        width="300"
+        height="80"
+        font-size="25"
+        radius="30"
       />
     </fab-if>
-   />
-</page>
-  <page id="pagina10" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
-    <agent id="Elarin"      
-    image="captura_de_tela_2025_06_15_144228_removebg_preview.PNG"
-    x="340"
-    y="150"
-    width="500" 
-    height="450"/>
-
-<agent 
-    id="image5" 
-    image="personagem.png"
-    x="50" 
-    y="150" 
-    width="400" 
-    height="490"
-  />
-     <agent id="fala-elarin3" 
-      text="Muito obrigado, meu bom amigo. Agora me sinto muito melhor" 
-    x="310"
-    font-size="22"
-    animation="typewriter"
-    color="black"
-     width="500" 
-    height="150"
-    border="solid"
-    bg_color="bisque"/>
-
-     <agent
-    id="set2"
-    image="seta.png"
-    x="700"
-    y="110"
-     width="50" 
-    height=""
-    animation="fade-pulse"
-    on_click="goToPage('pagina11')"
     />
-</page>
-  
-  <page id="pagina11" bg_image="Floresta.png" bg_music="osts-stage.mp3">
-
-  <agent 
-    id="vilão2" 
-    image="vil_o.PNG"
-    x="350" 
-    y="260" 
-    width="100" 
-    height="200"
-  />
-    
-    <agent id="Elarin5"      
-    image="Elarin_costas.png"
-    x="370"
-    y="200"
-    width="400" 
-    height="400"/>
-
-<agent 
-    id="image6" 
-    image="Tackfet costas.png"
-    x="20" 
-    y="150" 
-    width="400" 
-    height="490"
-  />
-     <agent id="fala-elarin4" 
-      text="Essa não, ele está aqui! Deve ter me seguido! E agora, Tackfet, o que faremos?" 
-    x="310"
-    font-size="22"
-    animation="typewriter"
-    color="black"
-     width="500" 
-    height="150"
-    border="solid"
-    bg_color="bisque"/>
-    
+  </page>
+  <page id="pagina10" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
     <agent
-    id="seta2"
-    image="seta.png"
-    x="700"
-    y="110"
-     width="50" 
-    height=""
-    animation="fade-pulse"
-    on_click="goToPage('pagina12')"
+      id="Elarin"
+      image="captura_de_tela_2025_06_15_144228_removebg_preview.PNG"
+      x="340"
+      y="150"
+      width="500"
+      height="450"
+    />
+
+    <agent
+      id="image5"
+      image="personagem.png"
+      x="50"
+      y="150"
+      width="400"
+      height="490"
+    />
+    <agent
+      id="fala-elarin3"
+      text="Muito obrigado, meu bom amigo. Agora me sinto muito melhor"
+      x="310"
+      font-size="22"
+      animation="typewriter"
+      color="black"
+      width="500"
+      height="150"
+      border="solid"
+      bg_color="bisque"
+    />
+
+    <agent
+      id="set2"
+      image="seta.png"
+      x="700"
+      y="110"
+      width="50"
+      height=""
+      animation="fade-pulse"
+      on_click="goToPage('pagina11')"
     />
   </page>
 
-<page id="pagina12" bg_image="Floresta.png" bg_music="osts-stage.mp3">
-   
-  <agent id="Elarin6"      
-    image="Elarin_costas.png"
-    x="370"
-    y="200"
-    width="400" 
-    height="400"/>
-
-<agent 
-    id="image7" 
-    image="Tackfet costas.png"
-    x="20" 
-    y="150" 
-    width="400" 
-    height="490"
-  />
-    <agent id="fala-tackfe7"
-      text="Espere, deixa eu pensar... Na melhor das hipóteses, só temos duas opções." 
-    
-     animation="typewriter"
-    font-size="25"
-    color="black"
-    width="490" 
-    height="140"
-    border="solid"
-    bg_color="dodgerblue"
-    x="5"
-    y="0"
-      />
-    
+  <page id="pagina11" bg_image="Floresta.png" bg_music="osts-stage.mp3">
     <agent
-    id="seta1"
-    image="seta.png"
-    x="440"
-    y="103"
-     width="50" 
-    height=""
-    animation="fade-pulse"
-    on_click="goToPage('pagina13')"
+      id="vilão2"
+      image="vil_o.PNG"
+      x="350"
+      y="260"
+      width="100"
+      height="200"
     />
 
-     <agent 
-    id="vilão2"
-    image="vil_o.PNG"
-    x="350" 
-    y="260" 
-    width="100" 
-    height="200"
-  />
+    <agent
+      id="Elarin5"
+      image="Elarin_costas.png"
+      x="370"
+      y="200"
+      width="400"
+      height="400"
+    />
+
+    <agent
+      id="image6"
+      image="Tackfet costas.png"
+      x="20"
+      y="150"
+      width="400"
+      height="490"
+    />
+    <agent
+      id="fala-elarin4"
+      text="Essa não, ele está aqui! Deve ter me seguido! E agora, Tackfet, o que faremos?"
+      x="310"
+      font-size="22"
+      animation="typewriter"
+      color="black"
+      width="500"
+      height="150"
+      border="solid"
+      bg_color="bisque"
+    />
+
+    <agent
+      id="seta2"
+      image="seta.png"
+      x="700"
+      y="110"
+      width="50"
+      height=""
+      animation="fade-pulse"
+      on_click="goToPage('pagina12')"
+    />
+  </page>
+
+  <page id="pagina12" bg_image="Floresta.png" bg_music="osts-stage.mp3">
+    <agent
+      id="Elarin6"
+      image="Elarin_costas.png"
+      x="370"
+      y="200"
+      width="400"
+      height="400"
+    />
+
+    <agent
+      id="image7"
+      image="Tackfet costas.png"
+      x="20"
+      y="150"
+      width="400"
+      height="490"
+    />
+    <agent
+      id="fala-tackfe7"
+      text="Espere, deixa eu pensar... Na melhor das hipóteses, só temos duas opções."
+      animation="typewriter"
+      font-size="25"
+      color="black"
+      width="490"
+      height="140"
+      border="solid"
+      bg_color="dodgerblue"
+      x="5"
+      y="0"
+    />
+
+    <agent
+      id="seta1"
+      image="seta.png"
+      x="440"
+      y="103"
+      width="50"
+      height=""
+      animation="fade-pulse"
+      on_click="goToPage('pagina13')"
+    />
+
+    <agent
+      id="vilão2"
+      image="vil_o.PNG"
+      x="350"
+      y="260"
+      width="100"
+      height="200"
+    />
   </page>
 
   <page id="pagina13" bg_image="Floresta.png" bg_music="osts-stage.mp3">
-   
-  <agent id="Elarin6"      
-    image="Elarin_costas.png"
-    x="370"
-    y="200"
-    width="400" 
-    height="400"/>
+    <agent
+      id="Elarin6"
+      image="Elarin_costas.png"
+      x="370"
+      y="200"
+      width="400"
+      height="400"
+    />
 
-<agent 
-    id="image7" 
-    image="Tackfet costas.png"
-    x="20" 
-    y="150" 
-    width="400" 
-    height="490"
-  />
-   
-    <agent 
-    id="vilão3"
-    image="vil_o.PNG"
-    x="350" 
-    y="260" 
-    width="100" 
-    height="200"
-  />
+    <agent
+      id="image7"
+      image="Tackfet costas.png"
+      x="20"
+      y="150"
+      width="400"
+      height="490"
+    />
 
-    <agent id="opção1"
+    <agent
+      id="vilão3"
+      image="vil_o.PNG"
+      x="350"
+      y="260"
+      width="100"
+      height="200"
+    />
+
+    <agent
+      id="opção1"
       text="Ficar e tentar enfrentar"
-    font-size="25"
-    color="black"
-    width="330" 
-    height="120"
-    border="solid"
-    bg_color="dodgerblue"
-    x="5"
-    y="0"
-    on_click="goToPage('final1')"
-      />
+      font-size="25"
+      color="black"
+      width="330"
+      height="120"
+      border="solid"
+      bg_color="dodgerblue"
+      x="5"
+      y="0"
+      on_click="goToPage('final1')"
+    />
 
-     <agent id="opção2"
-    text="Fazer uma retirada estratégica"
-    font-size="25"
-    color="black"
-    width="300" 
-    height="120"
-    border="solid"
-    bg_color="dodgerblue"
-    x="500"
-    y="0"
-    on_click="goToPage('final2')"
-    
-      />
-  
+    <agent
+      id="opção2"
+      text="Fazer uma retirada estratégica"
+      font-size="25"
+      color="black"
+      width="300"
+      height="120"
+      border="solid"
+      bg_color="dodgerblue"
+      x="500"
+      y="0"
+      on_click="goToPage('final2')"
+    />
   </page>
-<page id="final1" bg_image="Floresta.png" bg_music="osts-stage.mp3">
-   
-  <agent id="Elarin6"      
-    image="Elarin_costas.png"
-    x="370"
-    y="200"
-    width="400" 
-    height="400"/>
+  <page id="final1" bg_image="Floresta.png" bg_music="osts-stage.mp3">
+    <agent
+      id="Elarin6"
+      image="Elarin_costas.png"
+      x="370"
+      y="200"
+      width="400"
+      height="400"
+    />
 
-<agent 
-    id="image7" 
-    image="Tackfet costas.png"
-    x="20" 
-    y="150" 
-    width="400" 
-    height="490"
-  />
-    <agent id="fala-tackfe7"
+    <agent
+      id="image7"
+      image="Tackfet costas.png"
+      x="20"
+      y="150"
+      width="400"
+      height="490"
+    />
+    <agent
+      id="fala-tackfe7"
       text="Ficaremos e lutaremos, nós somos única coisa entre ele e a runa. se perdermos, acabou..."
-    
-     animation="typewriter"
-    font-size="25"
-    color="black"
-    width="490" 
-    height="140"
-    border="solid"
-    bg_color="dodgerblue"
-    x="5"
-    y="0"
-      />
-    
-    <agent
-    id="seta4"
-    image="seta.png"
-    x="440"
-    y="103"
-     width="50" 
-    height=""
-    animation="fade-pulse"
-    on_click="goToPage('final1-2')"
+      animation="typewriter"
+      font-size="25"
+      color="black"
+      width="490"
+      height="140"
+      border="solid"
+      bg_color="dodgerblue"
+      x="5"
+      y="0"
     />
 
-     <agent 
-    id="vilão4"
-    image="vil_o.PNG"
-    x="350" 
-    y="260" 
-    width="100" 
-    height="200"
-  />
-</page>
+    <agent
+      id="seta4"
+      image="seta.png"
+      x="440"
+      y="103"
+      width="50"
+      height=""
+      animation="fade-pulse"
+      on_click="goToPage('final1-2')"
+    />
+
+    <agent
+      id="vilão4"
+      image="vil_o.PNG"
+      x="350"
+      y="260"
+      width="100"
+      height="200"
+    />
+  </page>
   <page id="final1-2" bg_image="Floresta.png" bg_music="osts-stage.mp3">
-  
-  <agent 
-    id="vilão5" 
-    image="vil_o.PNG"
-    x="350" 
-    y="260" 
-    width="100" 
-    height="200"
-  />
-    
-    <agent id="Elarin7"      
-    image="Elarin_costas.png"
-    x="370"
-    y="200"
-    width="400" 
-    height="400"/>
-
-<agent 
-    id="image8" 
-    image="Tackfet costas.png"
-    x="20" 
-    y="150" 
-    width="400" 
-    height="490"
-  />
-     <agent id="fala-elarin5" 
-      text="Se você diz, eu lutarei ao seu lado até a minha morte, meu amigo" 
-    x="310"
-    font-size="22"
-    animation="typewriter"
-    color="black"
-     width="500" 
-    height="150"
-    border="solid"
-    bg_color="bisque"/>
-    
     <agent
-    id="seta5"
-    image="seta.png"
-    x="700"
-    y="110"
-     width="50" 
-    height=""
-    animation="fade-pulse"
-    on_click="goToPage('final1-3)"
+      id="vilão5"
+      image="vil_o.PNG"
+      x="350"
+      y="260"
+      width="100"
+      height="200"
     />
-</page>
+
+    <agent
+      id="Elarin7"
+      image="Elarin_costas.png"
+      x="370"
+      y="200"
+      width="400"
+      height="400"
+    />
+
+    <agent
+      id="image8"
+      image="Tackfet costas.png"
+      x="20"
+      y="150"
+      width="400"
+      height="490"
+    />
+    <agent
+      id="fala-elarin5"
+      text="Se você diz, eu lutarei ao seu lado até a minha morte, meu amigo"
+      x="310"
+      font-size="22"
+      animation="typewriter"
+      color="black"
+      width="500"
+      height="150"
+      border="solid"
+      bg_color="bisque"
+    />
+
+    <agent
+      id="seta5"
+      image="seta.png"
+      x="700"
+      y="110"
+      width="50"
+      height=""
+      animation="fade-pulse"
+      on_click="goToPage('final1-3)"
+    />
+  </page>
   <page id="final1-3">
-    <agent id="texto" text="É... No final, os dois farmaram aura, mas foram brutalmente molestados. F no chat, família, muito triste :'("  
+    <agent
+      id="texto"
+      text="É... No final, os dois farmaram aura, mas foram brutalmente molestados. F no chat, família, muito triste :'("
       x="center"
       y="center"
       animation="typewriter"
       font-size="25"
-      />
-    
-    
-</page>
+    />
+  </page>
   <page id="final2" bg_image="Floresta.png" bg_music="osts-stage.mp3">
-   
-  <agent id="Elarin6"      
-    image="Elarin_costas.png"
-    x="370"
-    y="200"
-    width="400" 
-    height="400"/>
-
-<agent 
-    id="image7" 
-    image="Tackfet costas.png"
-    x="20" 
-    y="150" 
-    width="400" 
-    height="490"
-  />
-    <agent id="fala-tackfe7"
-      text="Tá, escuta. se as lendas estiverem corretas, se eu levar a runa ao santuário de Melvendil, nos podemos ter uma chance de vencer ele." 
-    
-     animation="typewriter"
-    font-size="25"
-    color="black"
-    width="490" 
-    height="140"
-    border="solid"
-    bg_color="dodgerblue"
-    x="5"
-    y="0"
-      />
-    
     <agent
-    id="seta1"
-    image="seta.png"
-    x="440"
-    y="103"
-     width="50" 
-    height=""
-    animation="fade-pulse"
-    on_click="goToPage('final2-1')"
+      id="Elarin6"
+      image="Elarin_costas.png"
+      x="370"
+      y="200"
+      width="400"
+      height="400"
     />
 
-     <agent 
-    id="vilão2"
-    image="vil_o.PNG"
-    x="350" 
-    y="260" 
-    width="100" 
-    height="200"
-  />
-</page>
+    <agent
+      id="image7"
+      image="Tackfet costas.png"
+      x="20"
+      y="150"
+      width="400"
+      height="490"
+    />
+    <agent
+      id="fala-tackfe7"
+      text="Tá, escuta. se as lendas estiverem corretas, se eu levar a runa ao santuário de Melvendil, nos podemos ter uma chance de vencer ele."
+      animation="typewriter"
+      font-size="25"
+      color="black"
+      width="490"
+      height="140"
+      border="solid"
+      bg_color="dodgerblue"
+      x="5"
+      y="0"
+    />
+
+    <agent
+      id="seta1"
+      image="seta.png"
+      x="440"
+      y="103"
+      width="50"
+      height=""
+      animation="fade-pulse"
+      on_click="goToPage('final2-1')"
+    />
+
+    <agent
+      id="vilão2"
+      image="vil_o.PNG"
+      x="350"
+      y="260"
+      width="100"
+      height="200"
+    />
+  </page>
   <page id="final2-1" bg_image="Floresta.png" bg_music="osts-stage.mp3">
-   
-  <agent id="Elarin6"      
-    image="Elarin_costas.png"
-    x="370"
-    y="200"
-    width="400" 
-    height="400"/>
-
-<agent 
-    id="image7" 
-    image="Tackfet costas.png"
-    x="20" 
-    y="150" 
-    width="400" 
-    height="490"
-  />
-     <agent id="fala-elarin5" 
-      text="Você acha que pode dar certo?" 
-    x="310"
-    font-size="22"
-    animation="typewriter"
-    color="black"
-     width="500" 
-    height="100"
-    border="solid"
-    bg_color="bisque"/>
-    
     <agent
-    id="seta1"
-    image="seta.png"
-    x="600"
-    y="70"
-     width="50" 
-    height=""
-    animation="fade-pulse"
-    on_click="goToPage('final2-2')"
+      id="Elarin6"
+      image="Elarin_costas.png"
+      x="370"
+      y="200"
+      width="400"
+      height="400"
     />
 
-     <agent 
-    id="vilão2"
-    image="vil_o.PNG"
-    x="350" 
-    y="260" 
-    width="100" 
-    height="200"
-  />
-</page>
-<page id="final2-2" bg_image="Floresta.png" bg_music="osts-stage.mp3">
-   
-  <agent id="Elarin8"      
-    image="Elarin_costas.png"
-    x="370"
-    y="200"
-    width="400" 
-    height="400"/>
-
-<agent 
-    id="image9" 
-    image="Tackfet costas.png"
-    x="20" 
-    y="150" 
-    width="400" 
-    height="490"
-  />
-    <agent id="fala-tackfet2"
-      text="a gente só vai saber se tentar." 
-    
-     animation="typewriter"
-    font-size="25"
-    color="black"
-    width="490" 
-    height="100"
-    border="solid"
-    bg_color="dodgerblue"
-    x="5"
-    y="0"
-      />
-    
     <agent
-    id="setaa"
-    image="seta.png"
-    x="440"
-    y="70"
-     width="50" 
-    height=""
-    animation="fade-pulse"
-    on_click="goToPage('final2-3')"
+      id="image7"
+      image="Tackfet costas.png"
+      x="20"
+      y="150"
+      width="400"
+      height="490"
+    />
+    <agent
+      id="fala-elarin5"
+      text="Você acha que pode dar certo?"
+      x="310"
+      font-size="22"
+      animation="typewriter"
+      color="black"
+      width="500"
+      height="100"
+      border="solid"
+      bg_color="bisque"
     />
 
-     <agent 
-    id="vilão2"
-    image="vil_o.PNG"
-    x="350" 
-    y="260" 
-    width="100" 
-    height="200"
-  />
-</page>
-<page id="final2-3" bg_image="Floresta.png" bg_music="osts-stage.mp3">
-   
-  <agent id="Elarin6"      
-    image="Elarin_costas.png"
-    x="370"
-    y="200"
-    width="400" 
-    height="400"/>
-
-<agent 
-    id="image7" 
-    image="Tackfet costas.png"
-    x="20" 
-    y="150" 
-    width="400" 
-    height="490"
-  />
-     <agent id="fala-elarin5" 
-      text="Então vai, eu fico pra atrasar ele" 
-    x="310"
-    font-size="22"
-    animation="typewriter"
-    color="black"
-     width="500" 
-    height="100"
-    border="solid"
-    bg_color="bisque"/>
-    
     <agent
-    id="seta1"
-    image="seta.png"
-    x="600"
-    y="70"
-     width="50" 
-    height=""
-    animation="fade-pulse"
-    on_click="goToPage('final2-4')"
+      id="seta1"
+      image="seta.png"
+      x="600"
+      y="70"
+      width="50"
+      height=""
+      animation="fade-pulse"
+      on_click="goToPage('final2-2')"
     />
 
-     <agent 
-    id="vilão2"
-    image="vil_o.PNG"
-    x="350" 
-    y="260" 
-    width="100" 
-    height="200"
-  />
-</page>
-<page id="final2-4" bg_image="Floresta.png" bg_music="osts-stage.mp3">
-   
-  <agent id="Elarin8"      
-    image="Elarin_costas.png"
-    x="370"
-    y="200"
-    width="400" 
-    height="400"/>
-
-<agent 
-    id="image9" 
-    image="Tackfet costas.png"
-    x="20" 
-    y="150" 
-    width="400" 
-    height="490"
-  />
-    <agent id="fala-tackfet2"
-      text="Ta bo, flw aí" 
-    
-     animation="typewriter"
-    font-size="25"
-    color="black"
-    width="490" 
-    height="100"
-    border="solid"
-    bg_color="dodgerblue"
-    x="5"
-    y="0"
-      />
-    
     <agent
-    id="setaa"
-    image="seta.png"
-    x="440"
-    y="70"
-     width="50" 
-    height=""
-    animation="fade-pulse"
-    on_click="goToPage('final2-5')"
+      id="vilão2"
+      image="vil_o.PNG"
+      x="350"
+      y="260"
+      width="100"
+      height="200"
+    />
+  </page>
+  <page id="final2-2" bg_image="Floresta.png" bg_music="osts-stage.mp3">
+    <agent
+      id="Elarin8"
+      image="Elarin_costas.png"
+      x="370"
+      y="200"
+      width="400"
+      height="400"
     />
 
-     <agent 
-    id="vilão2"
-    image="vil_o.PNG"
-    x="350" 
-    y="260" 
-    width="100" 
-    height="200"
-  />
-</page>
-<page id="final2-5" bg_image="Floresta.png" bg_music="osts-stage.mp3">
-   
-  <agent id="Elarin6"      
-    image="Elarin_costas.png"
-    x="370"
-    y="200"
-    width="400" 
-    height="400"/>
-
-     <agent id="fala-elarin5" 
-      text="Ó que bicho desgraçado, nem ora se oferecer pra ficar..." 
-    x="310"
-    font-size="22"
-    animation="typewriter"
-    color="black"
-     width="500" 
-    height="100"
-    border="solid"
-    bg_color="bisque"/>
-    
     <agent
-    id="seta1"
-    image="seta.png"
-    x="700"
-    y="70"
-     width="50" 
-    height=""
-    animation="fade-pulse"
-    on_click="goToPage('final2-6')"
+      id="image9"
+      image="Tackfet costas.png"
+      x="20"
+      y="150"
+      width="400"
+      height="490"
+    />
+    <agent
+      id="fala-tackfet2"
+      text="a gente só vai saber se tentar."
+      animation="typewriter"
+      font-size="25"
+      color="black"
+      width="490"
+      height="100"
+      border="solid"
+      bg_color="dodgerblue"
+      x="5"
+      y="0"
     />
 
-     <agent 
-    id="vilão2"
-    image="vil_o.PNG"
-    x="350" 
-    y="260" 
-    width="100" 
-    height="200"
-  />
-</page> 
+    <agent
+      id="setaa"
+      image="seta.png"
+      x="440"
+      y="70"
+      width="50"
+      height=""
+      animation="fade-pulse"
+      on_click="goToPage('final2-3')"
+    />
+
+    <agent
+      id="vilão2"
+      image="vil_o.PNG"
+      x="350"
+      y="260"
+      width="100"
+      height="200"
+    />
+  </page>
+  <page id="final2-3" bg_image="Floresta.png" bg_music="osts-stage.mp3">
+    <agent
+      id="Elarin6"
+      image="Elarin_costas.png"
+      x="370"
+      y="200"
+      width="400"
+      height="400"
+    />
+
+    <agent
+      id="image7"
+      image="Tackfet costas.png"
+      x="20"
+      y="150"
+      width="400"
+      height="490"
+    />
+    <agent
+      id="fala-elarin5"
+      text="Então vai, eu fico pra atrasar ele"
+      x="310"
+      font-size="22"
+      animation="typewriter"
+      color="black"
+      width="500"
+      height="100"
+      border="solid"
+      bg_color="bisque"
+    />
+
+    <agent
+      id="seta1"
+      image="seta.png"
+      x="600"
+      y="70"
+      width="50"
+      height=""
+      animation="fade-pulse"
+      on_click="goToPage('final2-4')"
+    />
+
+    <agent
+      id="vilão2"
+      image="vil_o.PNG"
+      x="350"
+      y="260"
+      width="100"
+      height="200"
+    />
+  </page>
+  <page id="final2-4" bg_image="Floresta.png" bg_music="osts-stage.mp3">
+    <agent
+      id="Elarin8"
+      image="Elarin_costas.png"
+      x="370"
+      y="200"
+      width="400"
+      height="400"
+    />
+
+    <agent
+      id="image9"
+      image="Tackfet costas.png"
+      x="20"
+      y="150"
+      width="400"
+      height="490"
+    />
+    <agent
+      id="fala-tackfet2"
+      text="Ta bo, flw aí"
+      animation="typewriter"
+      font-size="25"
+      color="black"
+      width="490"
+      height="100"
+      border="solid"
+      bg_color="dodgerblue"
+      x="5"
+      y="0"
+    />
+
+    <agent
+      id="setaa"
+      image="seta.png"
+      x="440"
+      y="70"
+      width="50"
+      height=""
+      animation="fade-pulse"
+      on_click="goToPage('final2-5')"
+    />
+
+    <agent
+      id="vilão2"
+      image="vil_o.PNG"
+      x="350"
+      y="260"
+      width="100"
+      height="200"
+    />
+  </page>
+  <page id="final2-5" bg_image="Floresta.png" bg_music="osts-stage.mp3">
+    <agent
+      id="Elarin6"
+      image="Elarin_costas.png"
+      x="370"
+      y="200"
+      width="400"
+      height="400"
+    />
+
+    <agent
+      id="fala-elarin5"
+      text="Ó que bicho desgraçado, nem ora se oferecer pra ficar..."
+      x="310"
+      font-size="22"
+      animation="typewriter"
+      color="black"
+      width="500"
+      height="100"
+      border="solid"
+      bg_color="bisque"
+    />
+
+    <agent
+      id="seta1"
+      image="seta.png"
+      x="700"
+      y="70"
+      width="50"
+      height=""
+      animation="fade-pulse"
+      on_click="goToPage('final2-6')"
+    />
+
+    <agent
+      id="vilão2"
+      image="vil_o.PNG"
+      x="350"
+      y="260"
+      width="100"
+      height="200"
+    />
+  </page>
   <page id="final2-6" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
-    <agent id="tack" 
+    <agent
+      id="tack"
       image="personagem.png"
       x="20"
       y="230"
-      width="200" 
+      width="200"
       height="360"
-      />
+    />
 
-     <agent id="ritual" 
+    <agent
+      id="ritual"
       image="runa.png"
       x="260"
       y="230"
-      width="60" 
+      width="60"
       height="360"
       animation="float"
-      />
-      
-    <agent id="fala"
-      text="Quais eram mesmo as palavras do ritual?? Ah sim, lembrei! HAKUNA MATATA!" 
-     border="dashed"   
-     bg_color="skyblue"
-     color="black"
-     font-size="24"
+    />
+
+    <agent
+      id="fala"
+      text="Quais eram mesmo as palavras do ritual?? Ah sim, lembrei! HAKUNA MATATA!"
+      border="dashed"
+      bg_color="skyblue"
+      color="black"
+      font-size="24"
       x="30"
       y="90"
-      width="460" 
+      width="460"
       height="160"
       animation="typewriter"
       radius="20"
     />
-    
+
     <agent
-    id="seta3"
-    image="seta.png"
-    x="400"
-    y="200"
-     width="50" 
-    height=""
-    animation="fade-pulse"
-    on_click="goToPage('final2-7')"
+      id="seta3"
+      image="seta.png"
+      x="400"
+      y="200"
+      width="50"
+      height=""
+      animation="fade-pulse"
+      on_click="goToPage('final2-7')"
     />
-    
-</page>
+  </page>
   <page id="final2-7" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
-    <agent id="tack" 
+    <agent
+      id="tack"
       image="personagem.png"
       x="20"
       y="230"
-      width="200" 
+      width="200"
       height="360"
-      />
+    />
 
-     <agent id="ritual" 
+    <agent
+      id="ritual"
       image="runa.png"
       x="260"
       y="230"
-      width="60" 
+      width="60"
       height="360"
       animation="float"
-      />
-      <agent id="fala"
-      text="Finalmente te encontrei, seu verme. Acho que você tem algo que me pertence, eu eu vou ter nem que tenha que arrancar do seu cadáver!" 
-     border="dashed"   
-     bg_color="black"
-     color=""
-     font-size="24"
+    />
+    <agent
+      id="fala"
+      text="Finalmente te encontrei, seu verme. Acho que você tem algo que me pertence, eu eu vou ter nem que tenha que arrancar do seu cadáver!"
+      border="dashed"
+      bg_color="black"
+      color=""
+      font-size="24"
       x="350"
       y="1"
-      width="460" 
+      width="460"
       height="260"
       animation="typewriter"
       radius="20"
     />
-     <agent 
-    id="vilão2"
-    image="vil_o.PNG"
-    x="590" 
-    y="300" 
-    width="200" 
-    height="200"
-  />
-    
     <agent
-    id="seta1"
-    image="seta.png"
-    x="700"
-    y="220"
-     width="50" 
-    height=""
-    animation="fade-pulse"
-    on_click="goToPage('final2-8')"
+      id="vilão2"
+      image="vil_o.PNG"
+      x="590"
+      y="300"
+      width="200"
+      height="200"
     />
-  </ page>
+
+    <agent
+      id="seta1"
+      image="seta.png"
+      x="700"
+      y="220"
+      width="50"
+      height=""
+      animation="fade-pulse"
+      on_click="goToPage('final2-8')"
+    />
+  </page>
   <page id="final2-8" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
-    <agent id="tack" 
+    <agent
+      id="tack"
       image="personagem.png"
       x="20"
       y="230"
-      width="200" 
+      width="200"
       height="360"
-      />
+    />
 
-     <agent id="ritual" 
+    <agent
+      id="ritual"
       image="runa.png"
       x="260"
       y="230"
-      width="60" 
+      width="60"
       height="360"
       animation="float"
-      />
-      <agent id="fala"
-      text="Beleza, beleza, cê é o fodão e quer a runa e tals, deixa eu só te falar um negócio aqui rapidão... Avada..." 
-     border="dashed"   
-     bg_color="skyblue"
-     color="black"
-     font-size="24"
+    />
+    <agent
+      id="fala"
+      text="Beleza, beleza, cê é o fodão e quer a runa e tals, deixa eu só te falar um negócio aqui rapidão... Avada..."
+      border="dashed"
+      bg_color="skyblue"
+      color="black"
+      font-size="24"
       x="30"
       y="90"
-      width="460" 
+      width="460"
       height="160"
       animation="typewriter"
       radius="20"
     />
-     <agent 
-    id="vilão2"
-    image="vil_o.PNG"
-    x="590" 
-    y="300" 
-    width="200" 
-    height="200"
-  />
-    
     <agent
-    id="seta1"
-    image="seta.png"
-    x="400"
-    y="200"
-     width="50" 
-    height=""
-    animation="fade-pulse"
-    on_click="goToPage('final2-9')"
-      />
+      id="vilão2"
+      image="vil_o.PNG"
+      x="590"
+      y="300"
+      width="200"
+      height="200"
+    />
+
+    <agent
+      id="seta1"
+      image="seta.png"
+      x="400"
+      y="200"
+      width="50"
+      height=""
+      animation="fade-pulse"
+      on_click="goToPage('final2-9')"
+    />
   </page>
   <page id="final2-9" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
-    <agent id="tack" 
+    <agent
+      id="tack"
       image="personagem.png"
       x="20"
       y="230"
-      width="200" 
+      width="200"
       height="360"
-      />
+    />
 
-     <agent id="ritual" 
+    <agent
+      id="ritual"
       image="runa.png"
       x="260"
       y="230"
-      width="60" 
+      width="60"
       height="360"
       animation="float"
-      />
-      <agent id="fala"
-      text="Avada??" 
-     border="dashed"   
-     bg_color="black"
-     color=""
-     font-size="24"
+    />
+    <agent
+      id="fala"
+      text="Avada??"
+      border="dashed"
+      bg_color="black"
+      color=""
+      font-size="24"
       x="350"
       y="1"
-      width="460" 
+      width="460"
       height="120"
       animation="typewriter"
       radius="20"
     />
-     <agent 
-    id="vilão2"
-    image="vil_o.PNG"
-    x="590" 
-    y="300" 
-    width="200" 
-    height="200"
-  />
+    <agent
+      id="vilão2"
+      image="vil_o.PNG"
+      x="590"
+      y="300"
+      width="200"
+      height="200"
+    />
+    <agent
+      id="seta1"
+      image="seta.png"
+      x="600"
+      y="80"
+      width="50"
+      height=""
+      animation="fade-pulse"
+      on_click="goToPage('final2-10')"
+    />
   </page>
 
-  <page id="final2-8" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
-    <agent id="tack" 
-      image="personagem.png"
-      x="20"
-      y="230"
-      width="200" 
-      height="360"
-      />
+  <page id="final2-10" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
+    <agent
+      id="vilão2"
+      image="vil_o.PNG"
+      x="590"
+      y="300"
+      width="200"
+      height="200"
+    />
 
-     <agent id="ritual" 
-      image="runa.png"
-      x="260"
+    <agent
+      id="tack"
+      image="captura_de_tela_2025_06_15_210840_removebg_preview.png"
+      x="200"
       y="230"
-      width="60" 
+      width="500"
       height="360"
-      animation="float"
-      />
-      <agent id="fala"
-      text="Beleza, beleza, cê é o fodão e quer a runa e tals, deixa eu só te falar um negócio aqui rapidão... Avada..." 
-     border="dashed"   
-     bg_color="skyblue"
-     color="black"
-     font-size="24"
-      x="30"
-      y="90"
-      width="460" 
+    />
+
+    <agent
+      id="fala"
+      text="KAMEHAMEHA E JUTSU MULTI CLONES DAS SOMBRAS!!"
+      border="dashed"
+      bg_color="skyblue"
+      color="black"
+      font-size="24"
+      x="center"
+      y="20"
+      width="460"
       height="160"
       animation="typewriter"
       radius="20"
     />
-     <agent 
-    id="vilão2"
-    image="vil_o.PNG"
-    x="590" 
-    y="300" 
-    width="200" 
-    height="200"
-  />
-    
+
     <agent
-    id="seta1"
-    image="seta.png"
-    x="400"
-    y="200"
-     width="50" 
-    height=""
-    animation="fade-pulse"
-    on_click="goToPage('final2-9')"
-      />
+      id="seta1"
+      image="seta.png"
+      x="400"
+      y="130"
+      width="50"
+      height=""
+      animation="fade-pulse"
+      on_click="goToPage('final2-9')"
+    />
+  </page>
 </fable>
