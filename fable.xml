@@ -121,7 +121,6 @@
       on_click="goToPage('pagina4')"
     />
   </page>
-
   <page id="pagina4" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
     <agent
       id="elarin2"
@@ -228,7 +227,6 @@
       border="solid"
       bg_color="aqua"
     />
-    />
   </page>
   <page id="pagina7" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
     <agent
@@ -319,7 +317,6 @@
       on_click="goToPage('pagina9')"
     />
   </page>
-
   <page id="pagina9" bg_image="Floresta.png" bg_music="osts-vilo.mp3">
     <agent
       id="elarin7"
@@ -447,7 +444,6 @@
       on_click="goToPage('pagina11')"
     />
   </page>
-
   <page id="pagina11" bg_image="Floresta.png" bg_music="osts-stage.mp3">
     <agent
       id="vilão2"
@@ -499,7 +495,6 @@
       on_click="goToPage('pagina12')"
     />
   </page>
-
   <page id="pagina12" bg_image="Floresta.png" bg_music="osts-stage.mp3">
     <agent
       id="Elarin6"
@@ -552,7 +547,6 @@
       height="200"
     />
   </page>
-
   <page id="pagina13" bg_image="Floresta.png" bg_music="osts-stage.mp3">
     <agent
       id="Elarin6"
@@ -1176,7 +1170,6 @@
       on_click="goToPage('final2-9')"
     />
   </page>
-
   <page id="final2-9" bg_image="capa.png" bg_music="osts-retro-forest.mp3">
     <agent
       id="vilão2"
