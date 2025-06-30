@@ -384,7 +384,7 @@
       x="5"
       y="0"
     />
-    <fab-if when="$contador = 100">
+    <fab-if when="$contador >= 100">
       <agent
         id="botao"
         x="480"
